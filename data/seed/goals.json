@@ -1,0 +1,660 @@
+[
+  {
+    "id": "software_engineer",
+    "name": "Software / IT role after graduation",
+    "description": "Placement-ready for software engineering roles: strong programming, DSA, CS fundamentals and projects.",
+    "keywords": [
+      "software",
+      "sde",
+      "developer",
+      "coding",
+      "it role",
+      "programmer",
+      "swe",
+      "tech job",
+      "placement in it",
+      "backend",
+      "frontend",
+      "full stack"
+    ],
+    "required_skills": [
+      {
+        "skill": "prog_fund",
+        "target": 0.8,
+        "importance": 3
+      },
+      {
+        "skill": "dsa",
+        "target": 0.75,
+        "importance": 3
+      },
+      {
+        "skill": "oop",
+        "target": 0.7,
+        "importance": 2
+      },
+      {
+        "skill": "databases",
+        "target": 0.65,
+        "importance": 2
+      },
+      {
+        "skill": "os",
+        "target": 0.6,
+        "importance": 2
+      },
+      {
+        "skill": "discrete_math",
+        "target": 0.6,
+        "importance": 2
+      },
+      {
+        "skill": "software_eng",
+        "target": 0.6,
+        "importance": 2
+      },
+      {
+        "skill": "networks",
+        "target": 0.5,
+        "importance": 1
+      },
+      {
+        "skill": "web_dev",
+        "target": 0.5,
+        "importance": 1
+      },
+      {
+        "skill": "aptitude",
+        "target": 0.6,
+        "importance": 1
+      }
+    ],
+    "milestones": [
+      {
+        "title": "Solve 150 DSA problems on a coding-practice platform",
+        "kind": "practice",
+        "semester": 5
+      },
+      {
+        "title": "Build and deploy one full-stack project (Git, tests, README)",
+        "kind": "project",
+        "semester": 5
+      },
+      {
+        "title": "Apply for summer internships (on-campus drive)",
+        "kind": "internship",
+        "semester": 5
+      },
+      {
+        "title": "Summer software internship",
+        "kind": "internship",
+        "semester": 6
+      },
+      {
+        "title": "Timed DSA mock tests and two mock interviews",
+        "kind": "mock",
+        "semester": 7
+      },
+      {
+        "title": "Placement season",
+        "kind": "exam",
+        "semester": 7
+      }
+    ],
+    "mastery_criteria": [
+      "Score >= 70% on two consecutive timed DSA mock tests",
+      "Complete one end-to-end project with code review",
+      "Clear two mock technical interviews"
+    ],
+    "recommended_minor": "MIN_CS",
+    "protect_cgpa": false
+  },
+  {
+    "id": "data_analyst",
+    "name": "Data analytics / data science role",
+    "description": "Ready for analyst and junior data-science roles: SQL, statistics, Python data analysis, ML basics and a portfolio project.",
+    "keywords": [
+      "data",
+      "analytics",
+      "analyst",
+      "data science",
+      "data scientist",
+      "machine learning",
+      "ml",
+      "ai",
+      "business analyst"
+    ],
+    "required_skills": [
+      {
+        "skill": "data_analysis",
+        "target": 0.8,
+        "importance": 3
+      },
+      {
+        "skill": "prob_stats",
+        "target": 0.75,
+        "importance": 3
+      },
+      {
+        "skill": "databases",
+        "target": 0.7,
+        "importance": 3
+      },
+      {
+        "skill": "prog_fund",
+        "target": 0.7,
+        "importance": 2
+      },
+      {
+        "skill": "linear_algebra",
+        "target": 0.6,
+        "importance": 2
+      },
+      {
+        "skill": "ml",
+        "target": 0.6,
+        "importance": 2
+      },
+      {
+        "skill": "business_fundamentals",
+        "target": 0.4,
+        "importance": 1
+      },
+      {
+        "skill": "aptitude",
+        "target": 0.6,
+        "importance": 1
+      }
+    ],
+    "milestones": [
+      {
+        "title": "Complete timed SQL and statistics problem sets (>= 70%)",
+        "kind": "practice",
+        "semester": 5
+      },
+      {
+        "title": "End-to-end analytics project on an open dataset (published notebook)",
+        "kind": "project",
+        "semester": 5
+      },
+      {
+        "title": "Analytics / data internship",
+        "kind": "internship",
+        "semester": 6
+      },
+      {
+        "title": "Two mock analyst interviews (case + SQL)",
+        "kind": "mock",
+        "semester": 7
+      },
+      {
+        "title": "Placement season",
+        "kind": "exam",
+        "semester": 7
+      }
+    ],
+    "mastery_criteria": [
+      "Score >= 70% on timed SQL and statistics problem sets",
+      "Complete one end-to-end analytics project",
+      "Clear two mock interviews"
+    ],
+    "recommended_minor": "",
+    "protect_cgpa": false
+  },
+  {
+    "id": "higher_studies",
+    "name": "Higher studies: MS / PhD / research career",
+    "description": "Strong CGPA, research experience, research-oriented electives, writing skills and test timelines (GRE/TOEFL or GATE).",
+    "keywords": [
+      "ms",
+      "phd",
+      "research",
+      "higher studies",
+      "masters",
+      "abroad",
+      "gre",
+      "academia",
+      "professor",
+      "toefl"
+    ],
+    "required_skills": [
+      {
+        "skill": "@programme_core",
+        "target": 0.75,
+        "importance": 3
+      },
+      {
+        "skill": "research_methods",
+        "target": 0.75,
+        "importance": 3
+      },
+      {
+        "skill": "tech_writing",
+        "target": 0.75,
+        "importance": 3
+      },
+      {
+        "skill": "linear_algebra",
+        "target": 0.7,
+        "importance": 2
+      },
+      {
+        "skill": "prob_stats",
+        "target": 0.7,
+        "importance": 2
+      },
+      {
+        "skill": "numerical_methods",
+        "target": 0.65,
+        "importance": 2
+      },
+      {
+        "skill": "prog_fund",
+        "target": 0.6,
+        "importance": 1
+      }
+    ],
+    "milestones": [
+      {
+        "title": "Identify 3 faculty whose research fits your interests and request a UG project",
+        "kind": "research",
+        "semester": 5
+      },
+      {
+        "title": "Summer research internship (institute or abroad)",
+        "kind": "internship",
+        "semester": 6
+      },
+      {
+        "title": "GRE / TOEFL (or GATE for India) preparation and attempt",
+        "kind": "exam",
+        "semester": 7
+      },
+      {
+        "title": "B.Tech project with a written report / paper draft",
+        "kind": "project",
+        "semester": 7
+      },
+      {
+        "title": "Statements of purpose, recommendation letters and applications",
+        "kind": "application",
+        "semester": 7
+      }
+    ],
+    "mastery_criteria": [
+      "Keep CGPA >= 8.0",
+      "Complete a research project with a written report",
+      "Write a 2-page research proposal reviewed by a faculty member"
+    ],
+    "recommended_minor": "",
+    "protect_cgpa": true
+  },
+  {
+    "id": "gate_core",
+    "name": "GATE / PSU / M.Tech in own discipline",
+    "description": "Clear GATE in the student's branch with a strong rank for M.Tech admissions or PSU jobs.",
+    "keywords": [
+      "gate",
+      "psu",
+      "mtech",
+      "m.tech",
+      "iit mtech",
+      "core exam"
+    ],
+    "required_skills": [
+      {
+        "skill": "@programme_core",
+        "target": 0.8,
+        "importance": 3
+      },
+      {
+        "skill": "calculus",
+        "target": 0.75,
+        "importance": 2
+      },
+      {
+        "skill": "linear_algebra",
+        "target": 0.7,
+        "importance": 2
+      },
+      {
+        "skill": "prob_stats",
+        "target": 0.65,
+        "importance": 2
+      },
+      {
+        "skill": "numerical_methods",
+        "target": 0.7,
+        "importance": 2
+      },
+      {
+        "skill": "aptitude",
+        "target": 0.75,
+        "importance": 2
+      }
+    ],
+    "milestones": [
+      {
+        "title": "Finish first pass of GATE syllabus for your branch",
+        "kind": "practice",
+        "semester": 6
+      },
+      {
+        "title": "Previous-year GATE papers (subject-wise)",
+        "kind": "practice",
+        "semester": 7
+      },
+      {
+        "title": "Full-length GATE mock test series",
+        "kind": "mock",
+        "semester": 7
+      },
+      {
+        "title": "GATE examination (February)",
+        "kind": "exam",
+        "semester": 8
+      }
+    ],
+    "mastery_criteria": [
+      "Score >= 60% on three full-length GATE mocks",
+      "Cover every syllabus topic with >= 70% topic quiz accuracy"
+    ],
+    "recommended_minor": "",
+    "protect_cgpa": true
+  },
+  {
+    "id": "upsc_cse",
+    "name": "UPSC Civil Services (IAS/IPS)",
+    "description": "Build General Studies foundations alongside academics, choose supporting HSS electives, protect CGPA and graduation requirements.",
+    "keywords": [
+      "upsc",
+      "ias",
+      "ips",
+      "civil services",
+      "government",
+      "civil service",
+      "ifs",
+      "public service"
+    ],
+    "required_skills": [
+      {
+        "skill": "polity_governance",
+        "target": 0.75,
+        "importance": 3
+      },
+      {
+        "skill": "history_society",
+        "target": 0.7,
+        "importance": 3
+      },
+      {
+        "skill": "economics",
+        "target": 0.7,
+        "importance": 3
+      },
+      {
+        "skill": "ethics_aptitude",
+        "target": 0.7,
+        "importance": 2
+      },
+      {
+        "skill": "tech_writing",
+        "target": 0.6,
+        "importance": 2
+      },
+      {
+        "skill": "aptitude",
+        "target": 0.7,
+        "importance": 2
+      }
+    ],
+    "milestones": [
+      {
+        "title": "Read NCERT polity, history and economy books (Classes 6-12)",
+        "kind": "practice",
+        "semester": 4
+      },
+      {
+        "title": "Daily current-affairs habit and weekly answer-writing",
+        "kind": "practice",
+        "semester": 5
+      },
+      {
+        "title": "Choose the optional subject (shortlist via HSS electives)",
+        "kind": "decision",
+        "semester": 6
+      },
+      {
+        "title": "Prelims-style mock tests (GS + CSAT)",
+        "kind": "mock",
+        "semester": 7
+      },
+      {
+        "title": "First attempt after graduation",
+        "kind": "exam",
+        "semester": 8
+      }
+    ],
+    "mastery_criteria": [
+      "Score >= 55% on three full-length prelims mocks",
+      "CSAT mock >= 50%",
+      "Weekly answer-writing for 8+ weeks"
+    ],
+    "recommended_minor": "MIN_HSS",
+    "protect_cgpa": true
+  },
+  {
+    "id": "startup_founder",
+    "name": "Build and launch a startup",
+    "description": "Entrepreneurship, product and business basics plus a validated MVP; connect with the incubation cell and E-cell.",
+    "keywords": [
+      "startup",
+      "start-up",
+      "founder",
+      "entrepreneur",
+      "business",
+      "venture",
+      "own company"
+    ],
+    "required_skills": [
+      {
+        "skill": "entrepreneurship",
+        "target": 0.75,
+        "importance": 3
+      },
+      {
+        "skill": "product_mgmt",
+        "target": 0.65,
+        "importance": 2
+      },
+      {
+        "skill": "business_fundamentals",
+        "target": 0.65,
+        "importance": 2
+      },
+      {
+        "skill": "economics",
+        "target": 0.5,
+        "importance": 1
+      },
+      {
+        "skill": "prog_fund",
+        "target": 0.5,
+        "importance": 1
+      },
+      {
+        "skill": "web_dev",
+        "target": 0.45,
+        "importance": 1
+      },
+      {
+        "skill": "tech_writing",
+        "target": 0.5,
+        "importance": 1
+      }
+    ],
+    "milestones": [
+      {
+        "title": "20 customer-discovery interviews",
+        "kind": "project",
+        "semester": 5
+      },
+      {
+        "title": "Build an MVP and get 10 real users",
+        "kind": "project",
+        "semester": 6
+      },
+      {
+        "title": "Apply to the institute incubation cell / E-cell programmes (outside the buddy)",
+        "kind": "application",
+        "semester": 6
+      },
+      {
+        "title": "Pitch at a startup competition",
+        "kind": "mock",
+        "semester": 7
+      }
+    ],
+    "mastery_criteria": [
+      "Documented 20 customer interviews",
+      "MVP with >= 10 active users",
+      "Pitch deck reviewed by a mentor"
+    ],
+    "recommended_minor": "MIN_ENT",
+    "protect_cgpa": false
+  },
+  {
+    "id": "core_engineer",
+    "name": "Core engineering role in own discipline",
+    "description": "Placement in a core company (process / design / manufacturing) with strong fundamentals, an industrial internship and a design project.",
+    "keywords": [
+      "core",
+      "process engineer",
+      "design engineer",
+      "plant",
+      "manufacturing job",
+      "core company",
+      "core job"
+    ],
+    "required_skills": [
+      {
+        "skill": "@programme_core",
+        "target": 0.75,
+        "importance": 3
+      },
+      {
+        "skill": "numerical_methods",
+        "target": 0.6,
+        "importance": 2
+      },
+      {
+        "skill": "data_analysis",
+        "target": 0.5,
+        "importance": 1
+      },
+      {
+        "skill": "aptitude",
+        "target": 0.6,
+        "importance": 1
+      }
+    ],
+    "milestones": [
+      {
+        "title": "Industrial summer internship in a core company",
+        "kind": "internship",
+        "semester": 6
+      },
+      {
+        "title": "Design / simulation project in the department",
+        "kind": "project",
+        "semester": 7
+      },
+      {
+        "title": "Core-company placement tests and interviews",
+        "kind": "exam",
+        "semester": 7
+      }
+    ],
+    "mastery_criteria": [
+      "Score >= 70% on core subject quizzes",
+      "Complete an industrial internship report",
+      "Clear a mock technical interview"
+    ],
+    "recommended_minor": "",
+    "protect_cgpa": false
+  },
+  {
+    "id": "product_mba",
+    "name": "Product management / MBA (CAT)",
+    "description": "Product sense, business fundamentals and CAT-level aptitude for PM roles or MBA admission.",
+    "keywords": [
+      "mba",
+      "cat",
+      "product manager",
+      "pm",
+      "management",
+      "consulting",
+      "iim"
+    ],
+    "required_skills": [
+      {
+        "skill": "product_mgmt",
+        "target": 0.7,
+        "importance": 3
+      },
+      {
+        "skill": "aptitude",
+        "target": 0.8,
+        "importance": 3
+      },
+      {
+        "skill": "business_fundamentals",
+        "target": 0.65,
+        "importance": 2
+      },
+      {
+        "skill": "economics",
+        "target": 0.6,
+        "importance": 2
+      },
+      {
+        "skill": "data_analysis",
+        "target": 0.5,
+        "importance": 1
+      },
+      {
+        "skill": "tech_writing",
+        "target": 0.6,
+        "importance": 1
+      }
+    ],
+    "milestones": [
+      {
+        "title": "Product case competitions / teardown portfolio",
+        "kind": "project",
+        "semester": 5
+      },
+      {
+        "title": "Product or consulting internship",
+        "kind": "internship",
+        "semester": 6
+      },
+      {
+        "title": "CAT mock series",
+        "kind": "mock",
+        "semester": 7
+      },
+      {
+        "title": "CAT examination (November)",
+        "kind": "exam",
+        "semester": 7
+      }
+    ],
+    "mastery_criteria": [
+      "CAT mock percentile >= 90 on three mocks",
+      "Two product case studies reviewed by a mentor"
+    ],
+    "recommended_minor": "MIN_ENT",
+    "protect_cgpa": false
+  }
+]

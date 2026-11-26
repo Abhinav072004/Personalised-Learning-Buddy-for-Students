@@ -1,0 +1,54 @@
+[
+  {
+    "id": "MIN_CS",
+    "name": "Minor in Computer Science",
+    "department": "CSE",
+    "min_cgpa": 7.5,
+    "credits_required": 16,
+    "courses": [
+      "CS102",
+      "CS201",
+      "CS202",
+      "CS203",
+      "CS204",
+      "CS301",
+      "CS302",
+      "CS303",
+      "CS304"
+    ],
+    "excluded_programmes": [
+      "CSE"
+    ],
+    "source": "Institute curriculum (illustrative; modelled on a typical IIT B.Tech structure - verify against the official academic handbook)"
+  },
+  {
+    "id": "MIN_HSS",
+    "name": "Minor in Economics and Public Policy",
+    "department": "HSS",
+    "min_cgpa": 7.0,
+    "credits_required": 12,
+    "courses": [
+      "HS201",
+      "HS202",
+      "HS203",
+      "HS204"
+    ],
+    "excluded_programmes": [],
+    "source": "Institute curriculum (illustrative; modelled on a typical IIT B.Tech structure - verify against the official academic handbook)"
+  },
+  {
+    "id": "MIN_ENT",
+    "name": "Minor in Entrepreneurship and Management",
+    "department": "MGMT",
+    "min_cgpa": 6.5,
+    "credits_required": 12,
+    "courses": [
+      "MS201",
+      "MS202",
+      "MS203",
+      "HS201"
+    ],
+    "excluded_programmes": [],
+    "source": "Institute curriculum (illustrative; modelled on a typical IIT B.Tech structure - verify against the official academic handbook)"
+  }
+]

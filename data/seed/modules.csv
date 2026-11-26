@@ -1,0 +1,197 @@
+id,course_code,skill_id,title,seq,level,kind,est_hours,resource_id,source
+M_calculus_01,MA102,calculus,Limits and continuity,1,1,lesson,2,R_MIT1801,Authored from syllabus of MA102 and MIT 18.01SC Single Variable Calculus
+M_calculus_02,MA102,calculus,Derivatives and applications,2,1,lesson,3,R_MIT1801,Authored from syllabus of MA102 and MIT 18.01SC Single Variable Calculus
+M_calculus_03,MA102,calculus,Integration techniques,3,2,lesson,3,R_MIT1801,Authored from syllabus of MA102 and MIT 18.01SC Single Variable Calculus
+M_calculus_04,MA102,calculus,Multivariable calculus and partial derivatives,4,2,lesson,3,R_MIT1801,Authored from syllabus of MA102 and MIT 18.01SC Single Variable Calculus
+M_calculus_05,MA102,calculus,Problem set: optimisation and area problems,5,2,lab,2,R_MIT1801,Authored from syllabus of MA102 and MIT 18.01SC Single Variable Calculus
+M_linear_algebra_01,MA102,linear_algebra,Matrices and Gaussian elimination,1,1,lesson,2,R_3B1B_LA,Authored from syllabus of MA102 and Essence of Linear Algebra (video series)
+M_linear_algebra_02,MA102,linear_algebra,Determinants and inverses,2,1,lesson,2,R_3B1B_LA,Authored from syllabus of MA102 and Essence of Linear Algebra (video series)
+M_linear_algebra_03,MA102,linear_algebra,"Vector spaces, rank and null space",3,2,lesson,3,R_MIT1806,Authored from syllabus of MA102 and MIT 18.06 Linear Algebra (Gilbert Strang)
+M_linear_algebra_04,MA102,linear_algebra,Eigenvalues and eigenvectors,4,2,lesson,3,R_MIT1806,Authored from syllabus of MA102 and MIT 18.06 Linear Algebra (Gilbert Strang)
+M_linear_algebra_05,MA102,linear_algebra,Lab: least squares and PCA in NumPy,5,3,lab,3,R_MIT1806,Authored from syllabus of MA102 and MIT 18.06 Linear Algebra (Gilbert Strang)
+M_prob_stats_01,CH403,prob_stats,Probability rules and conditional probability,1,1,lesson,2,R_KA_STATS,Authored from syllabus of CH403 and Khan Academy: Statistics and Probability
+M_prob_stats_02,CH403,prob_stats,Random variables and distributions,2,2,lesson,3,R_MIT1805,Authored from syllabus of CH403 and MIT 18.05 Introduction to Probability and Statistics
+M_prob_stats_03,CH403,prob_stats,Descriptive statistics,3,1,lesson,2,R_KA_STATS,Authored from syllabus of CH403 and Khan Academy: Statistics and Probability
+M_prob_stats_04,CH403,prob_stats,Estimation and confidence intervals,4,2,lesson,3,R_MIT1805,Authored from syllabus of CH403 and MIT 18.05 Introduction to Probability and Statistics
+M_prob_stats_05,CH403,prob_stats,Hypothesis testing,5,3,lesson,3,R_MIT1805,Authored from syllabus of CH403 and MIT 18.05 Introduction to Probability and Statistics
+M_prob_stats_06,CH403,prob_stats,Problem set: statistics on real data,6,2,lab,3,R_MIT1805,Authored from syllabus of CH403 and MIT 18.05 Introduction to Probability and Statistics
+M_numerical_methods_01,CH401,numerical_methods,Root finding: bisection and Newton-Raphson,1,1,lesson,2,R_MIT10_34,Authored from syllabus of CH401 and MIT 10.34 Numerical Methods Applied to Chemical Engineering
+M_numerical_methods_02,CH401,numerical_methods,"Solving linear systems: Gauss elimination, Gauss-Seidel",2,2,lesson,3,R_MIT10_34,Authored from syllabus of CH401 and MIT 10.34 Numerical Methods Applied to Chemical Engineering
+M_numerical_methods_03,CH401,numerical_methods,Numerical integration: trapezoidal and Simpson,3,1,lesson,2,R_MIT10_34,Authored from syllabus of CH401 and MIT 10.34 Numerical Methods Applied to Chemical Engineering
+M_numerical_methods_04,CH401,numerical_methods,ODE solvers: Euler and Runge-Kutta,4,2,lesson,3,R_MIT10_34,Authored from syllabus of CH401 and MIT 10.34 Numerical Methods Applied to Chemical Engineering
+M_numerical_methods_05,CH401,numerical_methods,Lab: solve a process/engineering model in Python,5,3,lab,4,R_MIT10_34,Authored from syllabus of CH401 and MIT 10.34 Numerical Methods Applied to Chemical Engineering
+M_prog_fund_01,CS102,prog_fund,"Variables, types and expressions",1,1,lesson,2,R_MIT6_0001,Authored from syllabus of CS102 and MIT 6.0001 Introduction to Computer Science and Programming in Python
+M_prog_fund_02,CS102,prog_fund,Conditionals and loops,2,1,lesson,2,R_MIT6_0001,Authored from syllabus of CS102 and MIT 6.0001 Introduction to Computer Science and Programming in Python
+M_prog_fund_03,CS102,prog_fund,Functions and scope,3,1,lesson,2,R_MIT6_0001,Authored from syllabus of CS102 and MIT 6.0001 Introduction to Computer Science and Programming in Python
+M_prog_fund_04,CS102,prog_fund,"Lists, dictionaries and strings",4,2,lesson,3,R_NPTEL_PDSA,"Authored from syllabus of CS102 and NPTEL: Programming, Data Structures and Algorithms using Python"
+M_prog_fund_05,CS102,prog_fund,"Files, errors and debugging",5,2,lesson,2,R_NPTEL_PDSA,"Authored from syllabus of CS102 and NPTEL: Programming, Data Structures and Algorithms using Python"
+M_prog_fund_06,CS102,prog_fund,Lab: 15 hands-on coding problems,6,2,lab,4,R_NPTEL_PDSA,"Authored from syllabus of CS102 and NPTEL: Programming, Data Structures and Algorithms using Python"
+M_oop_01,CS303,oop,Classes and objects,1,1,lesson,2,R_MIT6_005,Authored from syllabus of CS303 and MIT 6.005 Software Construction
+M_oop_02,CS303,oop,Encapsulation and interfaces,2,2,lesson,2,R_MIT6_005,Authored from syllabus of CS303 and MIT 6.005 Software Construction
+M_oop_03,CS303,oop,Inheritance and polymorphism,3,2,lesson,3,R_MIT6_005,Authored from syllabus of CS303 and MIT 6.005 Software Construction
+M_oop_04,CS303,oop,Composition and design patterns,4,3,lesson,3,R_MIT6_005,Authored from syllabus of CS303 and MIT 6.005 Software Construction
+M_oop_05,CS303,oop,Lab: design a library-management system,5,3,lab,5,R_MIT6_005,Authored from syllabus of CS303 and MIT 6.005 Software Construction
+M_discrete_math_01,CS201,discrete_math,Propositional and predicate logic,1,1,lesson,2,R_MIT6_042,Authored from syllabus of CS201 and MIT 6.042J Mathematics for Computer Science
+M_discrete_math_02,CS201,discrete_math,Proof techniques and induction,2,2,lesson,3,R_MIT6_042,Authored from syllabus of CS201 and MIT 6.042J Mathematics for Computer Science
+M_discrete_math_03,CS201,discrete_math,"Sets, relations and functions",3,1,lesson,2,R_MIT6_042,Authored from syllabus of CS201 and MIT 6.042J Mathematics for Computer Science
+M_discrete_math_04,CS201,discrete_math,Counting: permutations and combinations,4,2,lesson,3,R_MIT6_042,Authored from syllabus of CS201 and MIT 6.042J Mathematics for Computer Science
+M_discrete_math_05,CS201,discrete_math,Graph theory basics,5,2,lesson,3,R_MIT6_042,Authored from syllabus of CS201 and MIT 6.042J Mathematics for Computer Science
+M_discrete_math_06,CS201,discrete_math,Problem set: combinatorics and graphs,6,2,lab,3,R_MIT6_042,Authored from syllabus of CS201 and MIT 6.042J Mathematics for Computer Science
+M_dsa_01,CS203,dsa,Complexity and Big-O,1,1,lesson,2,R_CS50,Authored from syllabus of CS203 and CS50x: Introduction to Computer Science
+M_dsa_02,CS203,dsa,"Arrays, linked lists, stacks and queues",2,1,lesson,3,R_CS50,Authored from syllabus of CS203 and CS50x: Introduction to Computer Science
+M_dsa_03,CS203,dsa,Hashing,3,2,lesson,2,R_NPTEL_PDSA,"Authored from syllabus of CS203 and NPTEL: Programming, Data Structures and Algorithms using Python"
+M_dsa_04,CS203,dsa,Trees and heaps,4,2,lesson,3,R_NPTEL_PDSA,"Authored from syllabus of CS203 and NPTEL: Programming, Data Structures and Algorithms using Python"
+M_dsa_05,CS203,dsa,Sorting and searching,5,2,lesson,3,R_NPTEL_PDSA,"Authored from syllabus of CS203 and NPTEL: Programming, Data Structures and Algorithms using Python"
+M_dsa_06,CS203,dsa,"Graphs: BFS, DFS, shortest paths",6,3,lesson,4,R_NPTEL_PDSA,"Authored from syllabus of CS203 and NPTEL: Programming, Data Structures and Algorithms using Python"
+M_dsa_07,CS203,dsa,Dynamic programming,7,3,lesson,4,R_NPTEL_PDSA,"Authored from syllabus of CS203 and NPTEL: Programming, Data Structures and Algorithms using Python"
+M_dsa_08,CS203,dsa,Practice: 50 timed DSA problems,8,3,lab,10,R_NPTEL_PDSA,"Authored from syllabus of CS203 and NPTEL: Programming, Data Structures and Algorithms using Python"
+M_databases_01,CS204,databases,Relational model and keys,1,1,lesson,2,R_SQLBOLT,Authored from syllabus of CS204 and SQLBolt interactive SQL lessons
+M_databases_02,CS204,databases,"SQL: SELECT, WHERE, ORDER BY",2,1,lesson,2,R_SQLBOLT,Authored from syllabus of CS204 and SQLBolt interactive SQL lessons
+M_databases_03,CS204,databases,Joins and aggregation (GROUP BY / HAVING),3,2,lesson,3,R_NPTEL_DBMS,Authored from syllabus of CS204 and NPTEL: Database Management System (IIT Kharagpur)
+M_databases_04,CS204,databases,ER design and normalisation,4,2,lesson,3,R_NPTEL_DBMS,Authored from syllabus of CS204 and NPTEL: Database Management System (IIT Kharagpur)
+M_databases_05,CS204,databases,Indexes and transactions (ACID),5,3,lesson,3,R_NPTEL_DBMS,Authored from syllabus of CS204 and NPTEL: Database Management System (IIT Kharagpur)
+M_databases_06,CS204,databases,Lab: design and query a college database,6,2,lab,4,R_NPTEL_DBMS,Authored from syllabus of CS204 and NPTEL: Database Management System (IIT Kharagpur)
+M_os_01,CS301,os,Processes and threads,1,1,lesson,2,R_OSTEP,Authored from syllabus of CS301 and Operating Systems: Three Easy Pieces (free textbook)
+M_os_02,CS301,os,CPU scheduling,2,2,lesson,2,R_OSTEP,Authored from syllabus of CS301 and Operating Systems: Three Easy Pieces (free textbook)
+M_os_03,CS301,os,Synchronisation and deadlocks,3,2,lesson,3,R_OSTEP,Authored from syllabus of CS301 and Operating Systems: Three Easy Pieces (free textbook)
+M_os_04,CS301,os,Memory management and paging,4,2,lesson,3,R_OSTEP,Authored from syllabus of CS301 and Operating Systems: Three Easy Pieces (free textbook)
+M_os_05,CS301,os,File systems,5,3,lesson,2,R_MIT6_828,Authored from syllabus of CS301 and MIT 6.828 Operating System Engineering
+M_os_06,CS301,os,Lab: write a multi-threaded program,6,3,lab,4,R_MIT6_828,Authored from syllabus of CS301 and MIT 6.828 Operating System Engineering
+M_networks_01,CS302,networks,Layered architecture and TCP/IP,1,1,lesson,2,R_NPTEL_CN,Authored from syllabus of CS302 and NPTEL: Computer Networks and Internet Protocol
+M_networks_02,CS302,networks,IP addressing and subnetting,2,2,lesson,3,R_NPTEL_CN,Authored from syllabus of CS302 and NPTEL: Computer Networks and Internet Protocol
+M_networks_03,CS302,networks,TCP vs UDP,3,2,lesson,2,R_NPTEL_CN,Authored from syllabus of CS302 and NPTEL: Computer Networks and Internet Protocol
+M_networks_04,CS302,networks,HTTP and DNS,4,1,lesson,2,R_NPTEL_CN,Authored from syllabus of CS302 and NPTEL: Computer Networks and Internet Protocol
+M_networks_05,CS302,networks,Lab: socket programming,5,3,lab,4,R_NPTEL_CN,Authored from syllabus of CS302 and NPTEL: Computer Networks and Internet Protocol
+M_software_eng_01,CS303,software_eng,Version control with git,1,1,lesson,2,R_MISSING,"Authored from syllabus of CS303 and The Missing Semester of Your CS Education (shell, git, tools)"
+M_software_eng_02,CS303,software_eng,Testing: unit and integration tests,2,2,lesson,3,R_MIT6_005,Authored from syllabus of CS303 and MIT 6.005 Software Construction
+M_software_eng_03,CS303,software_eng,Design principles and patterns,3,2,lesson,3,R_MIT6_005,Authored from syllabus of CS303 and MIT 6.005 Software Construction
+M_software_eng_04,CS303,software_eng,Agile and code review,4,1,lesson,2,R_MISSING,"Authored from syllabus of CS303 and The Missing Semester of Your CS Education (shell, git, tools)"
+M_software_eng_05,CS303,software_eng,Project: build a tested team project with CI,5,3,project,10,R_MIT6_005,Authored from syllabus of CS303 and MIT 6.005 Software Construction
+M_web_dev_01,CS305,web_dev,HTML and CSS basics,1,1,lesson,3,R_CS50,Authored from syllabus of CS305 and CS50x: Introduction to Computer Science
+M_web_dev_02,CS305,web_dev,JavaScript and the DOM,2,2,lesson,3,R_CS50,Authored from syllabus of CS305 and CS50x: Introduction to Computer Science
+M_web_dev_03,CS305,web_dev,HTTP and REST APIs,3,2,lesson,3,R_CS50,Authored from syllabus of CS305 and CS50x: Introduction to Computer Science
+M_web_dev_04,CS305,web_dev,Backend with a web framework and a database,4,2,lesson,4,R_CS50,Authored from syllabus of CS305 and CS50x: Introduction to Computer Science
+M_web_dev_05,CS305,web_dev,Project: build and deploy a full-stack app,5,3,project,12,R_CS50,Authored from syllabus of CS305 and CS50x: Introduction to Computer Science
+M_data_analysis_01,DS201,data_analysis,NumPy arrays,1,1,lesson,2,R_KA_STATS,Authored from syllabus of DS201 and Khan Academy: Statistics and Probability
+M_data_analysis_02,DS201,data_analysis,pandas DataFrames: selection and filtering,2,1,lesson,3,R_KA_STATS,Authored from syllabus of DS201 and Khan Academy: Statistics and Probability
+M_data_analysis_03,DS201,data_analysis,Cleaning and transforming data,3,2,lesson,3,R_PYDSH,Authored from syllabus of DS201 and Python Data Science Handbook (Jake VanderPlas)
+M_data_analysis_04,DS201,data_analysis,Grouping and aggregation,4,2,lesson,2,R_PYDSH,Authored from syllabus of DS201 and Python Data Science Handbook (Jake VanderPlas)
+M_data_analysis_05,DS201,data_analysis,Visualisation with matplotlib,5,2,lesson,2,R_PYDSH,Authored from syllabus of DS201 and Python Data Science Handbook (Jake VanderPlas)
+M_data_analysis_06,DS201,data_analysis,Project: end-to-end exploratory analysis on an open dataset,6,3,project,8,R_PYDSH,Authored from syllabus of DS201 and Python Data Science Handbook (Jake VanderPlas)
+M_ml_01,CS304,ml,ML problem framing and train/test split,1,1,lesson,2,R_GOOGLE_MLCC,Authored from syllabus of CS304 and Google Machine Learning Crash Course
+M_ml_02,CS304,ml,Linear and logistic regression,2,2,lesson,3,R_PYDSH,Authored from syllabus of CS304 and Python Data Science Handbook (Jake VanderPlas)
+M_ml_03,CS304,ml,"Overfitting, regularisation and cross-validation",3,2,lesson,3,R_PYDSH,Authored from syllabus of CS304 and Python Data Science Handbook (Jake VanderPlas)
+M_ml_04,CS304,ml,Trees and ensembles,4,2,lesson,3,R_PYDSH,Authored from syllabus of CS304 and Python Data Science Handbook (Jake VanderPlas)
+M_ml_05,CS304,ml,"Evaluation metrics: precision, recall, ROC",5,2,lesson,2,R_PYDSH,Authored from syllabus of CS304 and Python Data Science Handbook (Jake VanderPlas)
+M_ml_06,CS304,ml,Neural network basics,6,3,lesson,3,R_PYDSH,Authored from syllabus of CS304 and Python Data Science Handbook (Jake VanderPlas)
+M_ml_07,CS304,ml,Project: Kaggle-style ML pipeline,7,3,project,10,R_PYDSH,Authored from syllabus of CS304 and Python Data Science Handbook (Jake VanderPlas)
+M_thermodynamics_01,CH203,thermodynamics,"Systems, properties and the zeroth law",1,1,lesson,2,R_NPTEL_THERMO,Authored from syllabus of CH203 and NPTEL: Basic Thermodynamics / Applied Thermodynamics (Mechanical)
+M_thermodynamics_02,CH203,thermodynamics,First law and energy analysis,2,1,lesson,3,R_NPTEL_THERMO,Authored from syllabus of CH203 and NPTEL: Basic Thermodynamics / Applied Thermodynamics (Mechanical)
+M_thermodynamics_03,CH203,thermodynamics,"Second law, entropy and Carnot efficiency",3,2,lesson,3,R_MIT10_40,Authored from syllabus of CH203 and MIT 10.40 Chemical Engineering Thermodynamics
+M_thermodynamics_04,CH203,thermodynamics,Power and refrigeration cycles,4,2,lesson,3,R_MIT10_40,Authored from syllabus of CH203 and MIT 10.40 Chemical Engineering Thermodynamics
+M_thermodynamics_05,CH203,thermodynamics,Phase and chemical equilibria,5,3,lesson,3,R_MIT10_40,Authored from syllabus of CH203 and MIT 10.40 Chemical Engineering Thermodynamics
+M_thermodynamics_06,CH203,thermodynamics,Problem set: cycle analysis,6,2,lab,3,R_MIT10_40,Authored from syllabus of CH203 and MIT 10.40 Chemical Engineering Thermodynamics
+M_fluid_mechanics_01,ME402,fluid_mechanics,Fluid statics and pressure,1,1,lesson,2,R_NPTEL_FM,Authored from syllabus of ME402 and NPTEL: Fluid Mechanics
+M_fluid_mechanics_02,ME402,fluid_mechanics,Continuity and Bernoulli equation,2,1,lesson,3,R_NPTEL_FM,Authored from syllabus of ME402 and NPTEL: Fluid Mechanics
+M_fluid_mechanics_03,ME402,fluid_mechanics,Viscous flow and Reynolds number,3,2,lesson,2,R_MIT2_25,Authored from syllabus of ME402 and MIT 2.25 Advanced Fluid Mechanics
+M_fluid_mechanics_04,ME402,fluid_mechanics,Pipe flow and friction losses,4,2,lesson,3,R_MIT2_25,Authored from syllabus of ME402 and MIT 2.25 Advanced Fluid Mechanics
+M_fluid_mechanics_05,ME402,fluid_mechanics,Pumps and flow measurement,5,2,lesson,2,R_MIT2_25,Authored from syllabus of ME402 and MIT 2.25 Advanced Fluid Mechanics
+M_fluid_mechanics_06,ME402,fluid_mechanics,Problem set: piping network,6,3,lab,3,R_MIT2_25,Authored from syllabus of ME402 and MIT 2.25 Advanced Fluid Mechanics
+M_heat_transfer_01,ME301,heat_transfer,Conduction and Fourier's law,1,1,lesson,2,R_NPTEL_HMT,Authored from syllabus of ME301 and NPTEL: Heat and Mass Transfer
+M_heat_transfer_02,ME301,heat_transfer,Convection and heat transfer coefficients,2,2,lesson,3,R_LIENHARD,"Authored from syllabus of ME301 and A Heat Transfer Textbook (Lienhard & Lienhard, free)"
+M_heat_transfer_03,ME301,heat_transfer,Radiation basics,3,2,lesson,2,R_LIENHARD,"Authored from syllabus of ME301 and A Heat Transfer Textbook (Lienhard & Lienhard, free)"
+M_heat_transfer_04,ME301,heat_transfer,"Heat exchanger design (LMTD, NTU)",4,3,lesson,3,R_LIENHARD,"Authored from syllabus of ME301 and A Heat Transfer Textbook (Lienhard & Lienhard, free)"
+M_heat_transfer_05,ME301,heat_transfer,Problem set: exchanger sizing,5,3,lab,3,R_LIENHARD,"Authored from syllabus of ME301 and A Heat Transfer Textbook (Lienhard & Lienhard, free)"
+M_mass_transfer_01,CH301,mass_transfer,Diffusion and Fick's law,1,1,lesson,2,R_NPTEL_HMT,Authored from syllabus of CH301 and NPTEL: Heat and Mass Transfer
+M_mass_transfer_02,CH301,mass_transfer,Mass transfer coefficients,2,2,lesson,2,R_LIENHARD,"Authored from syllabus of CH301 and A Heat Transfer Textbook (Lienhard & Lienhard, free)"
+M_mass_transfer_03,CH301,mass_transfer,Distillation (McCabe-Thiele),3,2,lesson,3,R_LIENHARD,"Authored from syllabus of CH301 and A Heat Transfer Textbook (Lienhard & Lienhard, free)"
+M_mass_transfer_04,CH301,mass_transfer,Absorption and stripping,4,2,lesson,3,R_LIENHARD,"Authored from syllabus of CH301 and A Heat Transfer Textbook (Lienhard & Lienhard, free)"
+M_mass_transfer_05,CH301,mass_transfer,Problem set: column design,5,3,lab,3,R_LIENHARD,"Authored from syllabus of CH301 and A Heat Transfer Textbook (Lienhard & Lienhard, free)"
+M_reaction_eng_01,CH302,reaction_eng,Rate laws and reaction order,1,1,lesson,2,R_LEARNCHEME,Authored from syllabus of CH302 and LearnChemE screencasts and interactive simulations
+M_reaction_eng_02,CH302,reaction_eng,Arrhenius equation and temperature dependence,2,1,lesson,2,R_LEARNCHEME,Authored from syllabus of CH302 and LearnChemE screencasts and interactive simulations
+M_reaction_eng_03,CH302,reaction_eng,"Batch, CSTR and PFR design equations",3,2,lesson,3,R_MIT10_37,Authored from syllabus of CH302 and MIT 10.37 Chemical and Biological Reaction Engineering
+M_reaction_eng_04,CH302,reaction_eng,Multiple reactions and selectivity,4,3,lesson,3,R_MIT10_37,Authored from syllabus of CH302 and MIT 10.37 Chemical and Biological Reaction Engineering
+M_reaction_eng_05,CH302,reaction_eng,Problem set: reactor sizing,5,3,lab,3,R_MIT10_37,Authored from syllabus of CH302 and MIT 10.37 Chemical and Biological Reaction Engineering
+M_process_control_01,CH303,process_control,Laplace transforms,1,1,lesson,2,R_MIT10_450,"Authored from syllabus of CH303 and MIT 10.450 Process Dynamics, Operations, and Control"
+M_process_control_02,CH303,process_control,Transfer functions and first-order systems,2,2,lesson,3,R_MIT10_450,"Authored from syllabus of CH303 and MIT 10.450 Process Dynamics, Operations, and Control"
+M_process_control_03,CH303,process_control,Feedback and PID control,3,2,lesson,3,R_MIT10_450,"Authored from syllabus of CH303 and MIT 10.450 Process Dynamics, Operations, and Control"
+M_process_control_04,CH303,process_control,Stability analysis,4,3,lesson,3,R_MIT2_14,Authored from syllabus of CH303 and MIT 2.14 Analysis and Design of Feedback Control Systems
+M_process_control_05,CH303,process_control,Lab: PID tuning simulation,5,3,lab,3,R_MIT2_14,Authored from syllabus of CH303 and MIT 2.14 Analysis and Design of Feedback Control Systems
+M_solid_mechanics_01,ME202,solid_mechanics,Stress and strain,1,1,lesson,2,R_MIT2_001,Authored from syllabus of ME202 and MIT 2.001 Mechanics and Materials I
+M_solid_mechanics_02,ME202,solid_mechanics,Axial loading and Hooke's law,2,1,lesson,2,R_MIT2_001,Authored from syllabus of ME202 and MIT 2.001 Mechanics and Materials I
+M_solid_mechanics_03,ME202,solid_mechanics,Bending moments and shear force diagrams,3,2,lesson,3,R_MIT2_001,Authored from syllabus of ME202 and MIT 2.001 Mechanics and Materials I
+M_solid_mechanics_04,ME202,solid_mechanics,Torsion,4,2,lesson,2,R_MIT2_001,Authored from syllabus of ME202 and MIT 2.001 Mechanics and Materials I
+M_solid_mechanics_05,ME202,solid_mechanics,Deflection of beams,5,3,lesson,3,R_MIT2_001,Authored from syllabus of ME202 and MIT 2.001 Mechanics and Materials I
+M_solid_mechanics_06,ME202,solid_mechanics,Problem set: beam design,6,3,lab,3,R_MIT2_001,Authored from syllabus of ME202 and MIT 2.001 Mechanics and Materials I
+M_manufacturing_01,ME302,manufacturing,Casting processes,1,1,lesson,2,R_NPTEL_MFG,Authored from syllabus of ME302 and NPTEL: Manufacturing Processes
+M_manufacturing_02,ME302,manufacturing,Metal forming,2,1,lesson,2,R_NPTEL_MFG,Authored from syllabus of ME302 and NPTEL: Manufacturing Processes
+M_manufacturing_03,ME302,manufacturing,Machining and tool life,3,2,lesson,3,R_MIT2_008,Authored from syllabus of ME302 and MIT 2.008 Design and Manufacturing II
+M_manufacturing_04,ME302,manufacturing,Welding and joining,4,2,lesson,2,R_MIT2_008,Authored from syllabus of ME302 and MIT 2.008 Design and Manufacturing II
+M_manufacturing_05,ME302,manufacturing,Metrology and quality,5,2,lesson,2,R_MIT2_008,Authored from syllabus of ME302 and MIT 2.008 Design and Manufacturing II
+M_machine_design_01,ME303,machine_design,Design process and factor of safety,1,1,lesson,2,R_MIT2_001,Authored from syllabus of ME303 and MIT 2.001 Mechanics and Materials I
+M_machine_design_02,ME303,machine_design,Static failure theories,2,2,lesson,3,R_MIT2_001,Authored from syllabus of ME303 and MIT 2.001 Mechanics and Materials I
+M_machine_design_03,ME303,machine_design,Fatigue design,3,3,lesson,3,R_MIT2_001,Authored from syllabus of ME303 and MIT 2.001 Mechanics and Materials I
+M_machine_design_04,ME303,machine_design,"Shafts, keys and couplings",4,2,lesson,3,R_MIT2_001,Authored from syllabus of ME303 and MIT 2.001 Mechanics and Materials I
+M_machine_design_05,ME303,machine_design,Project: design a gearbox shaft,5,3,project,6,R_MIT2_001,Authored from syllabus of ME303 and MIT 2.001 Mechanics and Materials I
+M_cad_modelling_01,ME401,cad_modelling,Orthographic and isometric projections,1,1,lesson,2,R_FREECAD,Authored from syllabus of ME401 and FreeCAD documentation and tutorials
+M_cad_modelling_02,ME401,cad_modelling,Sketching and constraints in parametric CAD,2,1,lesson,3,R_FREECAD,Authored from syllabus of ME401 and FreeCAD documentation and tutorials
+M_cad_modelling_03,ME401,cad_modelling,Part and assembly modelling,3,2,lesson,3,R_FREECAD,Authored from syllabus of ME401 and FreeCAD documentation and tutorials
+M_cad_modelling_04,ME401,cad_modelling,GD&T basics,4,2,lesson,2,R_FREECAD,Authored from syllabus of ME401 and FreeCAD documentation and tutorials
+M_cad_modelling_05,ME401,cad_modelling,Lab: model an assembly in FreeCAD,5,2,lab,4,R_FREECAD,Authored from syllabus of ME401 and FreeCAD documentation and tutorials
+M_material_energy_balance_01,CH304,material_energy_balance,Process variables and units,1,1,lesson,2,R_LEARNCHEME,Authored from syllabus of CH304 and LearnChemE screencasts and interactive simulations
+M_material_energy_balance_02,CH304,material_energy_balance,Balances on non-reactive systems,2,1,lesson,3,R_LEARNCHEME,Authored from syllabus of CH304 and LearnChemE screencasts and interactive simulations
+M_material_energy_balance_03,CH304,material_energy_balance,Balances on reactive systems,3,2,lesson,3,R_LEARNCHEME,Authored from syllabus of CH304 and LearnChemE screencasts and interactive simulations
+M_material_energy_balance_04,CH304,material_energy_balance,Energy balances,4,2,lesson,3,R_LEARNCHEME,Authored from syllabus of CH304 and LearnChemE screencasts and interactive simulations
+M_material_energy_balance_05,CH304,material_energy_balance,Problem set: recycle and purge,5,3,lab,3,R_LEARNCHEME,Authored from syllabus of CH304 and LearnChemE screencasts and interactive simulations
+M_research_methods_01,RM301,research_methods,How to read a research paper,1,1,lesson,2,R_KESHAV,Authored from syllabus of RM301 and How to Read a Paper (S. Keshav)
+M_research_methods_02,RM301,research_methods,Literature review and finding gaps,2,2,lesson,3,R_MIT1805,Authored from syllabus of RM301 and MIT 18.05 Introduction to Probability and Statistics
+M_research_methods_03,RM301,research_methods,Hypotheses and experimental design,3,2,lesson,3,R_MIT1805,Authored from syllabus of RM301 and MIT 18.05 Introduction to Probability and Statistics
+M_research_methods_04,RM301,research_methods,Statistics for research results,4,2,lesson,3,R_MIT1805,Authored from syllabus of RM301 and MIT 18.05 Introduction to Probability and Statistics
+M_research_methods_05,RM301,research_methods,Project: write a 2-page research proposal,5,3,project,6,R_MIT1805,Authored from syllabus of RM301 and MIT 18.05 Introduction to Probability and Statistics
+M_tech_writing_01,HS205,tech_writing,Structure of reports and papers (IMRaD),1,1,lesson,2,R_PURDUE_OWL,Authored from syllabus of HS205 and Purdue Online Writing Lab (OWL)
+M_tech_writing_02,HS205,tech_writing,Clear sentences and consistent terminology,2,1,lesson,2,R_PURDUE_OWL,Authored from syllabus of HS205 and Purdue Online Writing Lab (OWL)
+M_tech_writing_03,HS205,tech_writing,Citations and avoiding plagiarism,3,1,lesson,1,R_PURDUE_OWL,Authored from syllabus of HS205 and Purdue Online Writing Lab (OWL)
+M_tech_writing_04,HS205,tech_writing,"Abstracts, statements of purpose and essays",4,2,lesson,3,R_MIT21W,Authored from syllabus of HS205 and MIT 21W.035 Science Writing and New Media
+M_tech_writing_05,HS205,tech_writing,Exercise: write and peer-review an essay,5,2,lab,3,R_MIT21W,Authored from syllabus of HS205 and MIT 21W.035 Science Writing and New Media
+M_polity_governance_01,HS202,polity_governance,Making of the Constitution and Preamble,1,1,lesson,2,R_NCERT_POL,Authored from syllabus of HS202 and NCERT Class XI: Indian Constitution at Work
+M_polity_governance_02,HS202,polity_governance,Fundamental Rights and Duties,2,1,lesson,3,R_NCERT_POL,Authored from syllabus of HS202 and NCERT Class XI: Indian Constitution at Work
+M_polity_governance_03,HS202,polity_governance,Directive Principles of State Policy,3,1,lesson,2,R_NCERT_POL,Authored from syllabus of HS202 and NCERT Class XI: Indian Constitution at Work
+M_polity_governance_04,HS202,polity_governance,"Parliament, Executive and Judiciary",4,2,lesson,3,R_NCERT_POL,Authored from syllabus of HS202 and NCERT Class XI: Indian Constitution at Work
+M_polity_governance_05,HS202,polity_governance,Federalism and local government,5,2,lesson,3,R_NCERT_POL,Authored from syllabus of HS202 and NCERT Class XI: Indian Constitution at Work
+M_polity_governance_06,HS202,polity_governance,Practice: prelims-style polity test,6,2,lab,2,R_NCERT_POL,Authored from syllabus of HS202 and NCERT Class XI: Indian Constitution at Work
+M_economics_01,HS201,economics,"Demand, supply and elasticity",1,1,lesson,2,R_UPSC_SYL,Authored from syllabus of HS201 and UPSC Civil Services Examination notice & syllabus
+M_economics_02,HS201,economics,Market structures,2,2,lesson,2,R_MIT14_01,Authored from syllabus of HS201 and MIT 14.01 Principles of Microeconomics
+M_economics_03,HS201,economics,National income and GDP,3,1,lesson,2,R_UPSC_SYL,Authored from syllabus of HS201 and UPSC Civil Services Examination notice & syllabus
+M_economics_04,HS201,economics,Inflation and monetary policy,4,2,lesson,3,R_MIT14_01,Authored from syllabus of HS201 and MIT 14.01 Principles of Microeconomics
+M_economics_05,HS201,economics,"Indian economy: planning, reforms, budget",5,2,lesson,3,R_MIT14_01,Authored from syllabus of HS201 and MIT 14.01 Principles of Microeconomics
+M_economics_06,HS201,economics,Practice: economy current-affairs quiz,6,2,lab,2,R_MIT14_01,Authored from syllabus of HS201 and MIT 14.01 Principles of Microeconomics
+M_history_society_01,HS203,history_society,Advent of European powers and British rule,1,1,lesson,3,R_UPSC_SYL,Authored from syllabus of HS203 and UPSC Civil Services Examination notice & syllabus
+M_history_society_02,HS203,history_society,Social and religious reform movements,2,1,lesson,2,R_UPSC_SYL,Authored from syllabus of HS203 and UPSC Civil Services Examination notice & syllabus
+M_history_society_03,HS203,history_society,Indian National Movement 1885-1919,3,2,lesson,3,R_UPSC_SYL,Authored from syllabus of HS203 and UPSC Civil Services Examination notice & syllabus
+M_history_society_04,HS203,history_society,Gandhian era and independence 1919-1947,4,2,lesson,3,R_UPSC_SYL,Authored from syllabus of HS203 and UPSC Civil Services Examination notice & syllabus
+M_history_society_05,HS203,history_society,Post-independence consolidation,5,2,lesson,2,R_UPSC_SYL,Authored from syllabus of HS203 and UPSC Civil Services Examination notice & syllabus
+M_history_society_06,HS203,history_society,Practice: history answer-writing,6,2,lab,2,R_UPSC_SYL,Authored from syllabus of HS203 and UPSC Civil Services Examination notice & syllabus
+M_ethics_aptitude_01,HS204,ethics_aptitude,Ethics and human interface,1,1,lesson,2,R_UPSC_SYL,Authored from syllabus of HS204 and UPSC Civil Services Examination notice & syllabus
+M_ethics_aptitude_02,HS204,ethics_aptitude,Attitude and emotional intelligence,2,1,lesson,2,R_UPSC_SYL,Authored from syllabus of HS204 and UPSC Civil Services Examination notice & syllabus
+M_ethics_aptitude_03,HS204,ethics_aptitude,Probity in governance,3,2,lesson,2,R_UPSC_SYL,Authored from syllabus of HS204 and UPSC Civil Services Examination notice & syllabus
+M_ethics_aptitude_04,HS204,ethics_aptitude,Case studies in public administration,4,3,lab,3,R_UPSC_SYL,Authored from syllabus of HS204 and UPSC Civil Services Examination notice & syllabus
+M_entrepreneurship_01,MS201,entrepreneurship,Finding problems worth solving,1,1,lesson,2,R_YCSS,Authored from syllabus of MS201 and Y Combinator Startup School
+M_entrepreneurship_02,MS201,entrepreneurship,Customer discovery interviews,2,1,lesson,2,R_YCSS,Authored from syllabus of MS201 and Y Combinator Startup School
+M_entrepreneurship_03,MS201,entrepreneurship,MVPs and experiments,3,2,lesson,3,R_MIT15_390,Authored from syllabus of MS201 and MIT 15.390 New Enterprises
+M_entrepreneurship_04,MS201,entrepreneurship,Business models and unit economics,4,2,lesson,3,R_MIT15_390,Authored from syllabus of MS201 and MIT 15.390 New Enterprises
+M_entrepreneurship_05,MS201,entrepreneurship,Pitching and fundraising,5,2,lesson,2,R_MIT15_390,Authored from syllabus of MS201 and MIT 15.390 New Enterprises
+M_entrepreneurship_06,MS201,entrepreneurship,Project: 20 customer interviews and an MVP,6,3,project,12,R_MIT15_390,Authored from syllabus of MS201 and MIT 15.390 New Enterprises
+M_product_mgmt_01,MS202,product_mgmt,Product thinking and user needs,1,1,lesson,2,R_YCSS,Authored from syllabus of MS202 and Y Combinator Startup School
+M_product_mgmt_02,MS202,product_mgmt,Writing user stories and PRDs,2,1,lesson,2,R_YCSS,Authored from syllabus of MS202 and Y Combinator Startup School
+M_product_mgmt_03,MS202,product_mgmt,"Prioritisation frameworks (RICE, MoSCoW)",3,2,lesson,2,R_PM_MIT,Authored from syllabus of MS202 and MIT 15.783J Product Design and Development
+M_product_mgmt_04,MS202,product_mgmt,Metrics and A/B testing,4,2,lesson,3,R_PM_MIT,Authored from syllabus of MS202 and MIT 15.783J Product Design and Development
+M_product_mgmt_05,MS202,product_mgmt,Case study: product teardown,5,2,lab,3,R_PM_MIT,Authored from syllabus of MS202 and MIT 15.783J Product Design and Development
+M_business_fundamentals_01,MS203,business_fundamentals,Financial statements,1,1,lesson,2,R_KA_FIN,Authored from syllabus of MS203 and Khan Academy: Accounting and financial statements
+M_business_fundamentals_02,MS203,business_fundamentals,"Margins, costing and break-even",2,1,lesson,2,R_KA_FIN,Authored from syllabus of MS203 and Khan Academy: Accounting and financial statements
+M_business_fundamentals_03,MS203,business_fundamentals,Time value of money and NPV,3,2,lesson,3,R_MIT15_401,Authored from syllabus of MS203 and MIT 15.401 Finance Theory I
+M_business_fundamentals_04,MS203,business_fundamentals,Exercise: build a startup financial model,4,2,lab,3,R_MIT15_401,Authored from syllabus of MS203 and MIT 15.401 Finance Theory I
+M_aptitude_01,,aptitude,"Percentages, profit and loss",1,1,lesson,2,R_APT_PRACTICE,"Authored from syllabus of open resources and Quantitative aptitude practice sets (percentages, ratios, time-work)"
+M_aptitude_02,,aptitude,Ratios and proportions,2,1,lesson,2,R_APT_PRACTICE,"Authored from syllabus of open resources and Quantitative aptitude practice sets (percentages, ratios, time-work)"
+M_aptitude_03,,aptitude,"Time, speed, distance and work",3,2,lesson,2,R_APT_PRACTICE,"Authored from syllabus of open resources and Quantitative aptitude practice sets (percentages, ratios, time-work)"
+M_aptitude_04,,aptitude,Logical reasoning,4,2,lesson,2,R_APT_PRACTICE,"Authored from syllabus of open resources and Quantitative aptitude practice sets (percentages, ratios, time-work)"
+M_aptitude_05,,aptitude,Timed aptitude mock test,5,2,lab,2,R_APT_PRACTICE,"Authored from syllabus of open resources and Quantitative aptitude practice sets (percentages, ratios, time-work)"

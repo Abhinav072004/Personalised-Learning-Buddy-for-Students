@@ -1,0 +1,2518 @@
+[
+  {
+    "id": "Q_calculus_01",
+    "skill_id": "calculus",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "What is d/dx (x^3) evaluated at x = 2?",
+    "options": [
+      "4",
+      "8",
+      "12",
+      "6"
+    ],
+    "answer": "12",
+    "explanation": "d/dx x^3 = 3x^2 = 12 at x = 2.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_calculus_02",
+    "skill_id": "calculus",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "What is the value of the integral of 2x dx from 0 to 1?",
+    "options": [
+      "0.5",
+      "1",
+      "2",
+      "0"
+    ],
+    "answer": "1",
+    "explanation": "Antiderivative x^2, evaluated 1 - 0 = 1.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_calculus_03",
+    "skill_id": "calculus",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "lim (x->0) sin(x)/x equals",
+    "options": [
+      "0",
+      "1",
+      "Infinity",
+      "Does not exist"
+    ],
+    "answer": "1",
+    "explanation": "Standard limit equal to 1.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_calculus_04",
+    "skill_id": "calculus",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "For f(x, y) = x^2 y + y^3, what is the partial derivative with respect to y?",
+    "options": [
+      "2xy + 3y^2",
+      "x^2 + 3y^2",
+      "x^2 + y^2",
+      "2x + 3y^2"
+    ],
+    "answer": "x^2 + 3y^2",
+    "explanation": "Treat x as constant: x^2 + 3y^2.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_linear_algebra_01",
+    "skill_id": "linear_algebra",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Multiplying a 2x3 matrix by a 3x4 matrix gives a matrix of size",
+    "options": [
+      "3x3",
+      "2x4",
+      "4x2",
+      "Not defined"
+    ],
+    "answer": "2x4",
+    "explanation": "Outer dimensions: 2x4.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_linear_algebra_02",
+    "skill_id": "linear_algebra",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "What is the determinant of [[2, 1], [4, 3]]?",
+    "options": [
+      "2",
+      "10",
+      "-2",
+      "5"
+    ],
+    "answer": "2",
+    "explanation": "2*3 - 1*4 = 2.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_linear_algebra_03",
+    "skill_id": "linear_algebra",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "What is the rank of [[1, 2], [2, 4]]?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "answer": "1",
+    "explanation": "Second row is twice the first, so rank 1.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_linear_algebra_04",
+    "skill_id": "linear_algebra",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The eigenvalues of [[2, 0], [0, 3]] are",
+    "options": [
+      "0 and 5",
+      "2 and 3",
+      "1 and 6",
+      "6 only"
+    ],
+    "answer": "2 and 3",
+    "explanation": "Diagonal matrix: eigenvalues are the diagonal entries.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_prob_stats_01",
+    "skill_id": "prob_stats",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A fair coin is tossed twice. What is P(both heads)?",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "3/4"
+    ],
+    "answer": "1/4",
+    "explanation": "(1/2)*(1/2) = 1/4.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_prob_stats_02",
+    "skill_id": "prob_stats",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "What is the mean of 2, 4, 6, 8?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "20"
+    ],
+    "answer": "5",
+    "explanation": "Sum 20 / 4 = 5.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_prob_stats_03",
+    "skill_id": "prob_stats",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A and B are independent with P(A) = 0.5 and P(B) = 0.4. P(A and B) is",
+    "options": [
+      "0.9",
+      "0.1",
+      "0.2",
+      "0.45"
+    ],
+    "answer": "0.2",
+    "explanation": "Independent: 0.5 * 0.4 = 0.2.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_prob_stats_04",
+    "skill_id": "prob_stats",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "In a normal distribution, roughly what share of values lie within one standard deviation of the mean?",
+    "options": [
+      "50%",
+      "68%",
+      "95%",
+      "99.7%"
+    ],
+    "answer": "68%",
+    "explanation": "Empirical rule: about 68%.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_numerical_methods_01",
+    "skill_id": "numerical_methods",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The Newton-Raphson method is mainly used to",
+    "options": [
+      "Integrate functions",
+      "Find roots of equations",
+      "Sort data",
+      "Invert matrices exactly"
+    ],
+    "answer": "Find roots of equations",
+    "explanation": "It iterates x - f(x)/f'(x) towards a root.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_numerical_methods_02",
+    "skill_id": "numerical_methods",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Using the trapezoidal rule with a single interval, integral of f(x) = x from 0 to 2 is",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "0"
+    ],
+    "answer": "2",
+    "explanation": "(b-a)/2*(f(a)+f(b)) = 1*(0+2) = 2.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_numerical_methods_03",
+    "skill_id": "numerical_methods",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "One explicit Euler step (h = 0.1) for dy/dx = y with y(0) = 1 gives y(0.1) =",
+    "options": [
+      "1.0",
+      "1.1",
+      "1.105",
+      "0.9"
+    ],
+    "answer": "1.1",
+    "explanation": "y1 = y0 + h*y0 = 1.1.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_numerical_methods_04",
+    "skill_id": "numerical_methods",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Gauss-Seidel iteration is guaranteed to converge when the coefficient matrix is",
+    "options": [
+      "Singular",
+      "Strictly diagonally dominant",
+      "Upper triangular only",
+      "Skew-symmetric"
+    ],
+    "answer": "Strictly diagonally dominant",
+    "explanation": "Strict diagonal dominance is a sufficient condition.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_prog_fund_01",
+    "skill_id": "prog_fund",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "In Python, what does print(7 // 2) output?",
+    "options": [
+      "3.5",
+      "3",
+      "4",
+      "1"
+    ],
+    "answer": "3",
+    "explanation": "// is floor division.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_prog_fund_02",
+    "skill_id": "prog_fund",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "What does len([1, [2, 3], 4]) return?",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "Error"
+    ],
+    "answer": "3",
+    "explanation": "The nested list counts as one element.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_prog_fund_03",
+    "skill_id": "prog_fund",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "How many times does `for i in range(1, 10, 3):` run?",
+    "options": [
+      "3",
+      "4",
+      "9",
+      "10"
+    ],
+    "answer": "3",
+    "explanation": "i takes 1, 4, 7.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_prog_fund_04",
+    "skill_id": "prog_fund",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "x = [1, 2, 3]; y = x; y.append(4). What is len(x)?",
+    "options": [
+      "3",
+      "4",
+      "Error",
+      "0"
+    ],
+    "answer": "4",
+    "explanation": "x and y reference the same list.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_oop_01",
+    "skill_id": "oop",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Encapsulation means",
+    "options": [
+      "Bundling data with the methods that use it and restricting direct access",
+      "Running code in parallel",
+      "Converting objects to JSON",
+      "Using many global variables"
+    ],
+    "answer": "Bundling data with the methods that use it and restricting direct access",
+    "explanation": "Encapsulation hides internal state behind methods.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_oop_02",
+    "skill_id": "oop",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Method overriding requires",
+    "options": [
+      "Two methods with different names",
+      "A subclass redefining a method of its superclass",
+      "Static methods only",
+      "Operator overloading"
+    ],
+    "answer": "A subclass redefining a method of its superclass",
+    "explanation": "Overriding happens across an inheritance relationship.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_oop_03",
+    "skill_id": "oop",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Which is an example of polymorphism?",
+    "options": [
+      "A variable changing type",
+      "The same method call behaving differently for different object types",
+      "A class with private fields",
+      "A loop over a list"
+    ],
+    "answer": "The same method call behaving differently for different object types",
+    "explanation": "One interface, many implementations.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_oop_04",
+    "skill_id": "oop",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "'Favour composition over inheritance' mainly aims to reduce",
+    "options": [
+      "Memory use",
+      "Tight coupling between classes",
+      "Number of files",
+      "Compile time"
+    ],
+    "answer": "Tight coupling between classes",
+    "explanation": "Composition keeps classes loosely coupled.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_discrete_math_01",
+    "skill_id": "discrete_math",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "How many subsets does a 4-element set have?",
+    "options": [
+      "8",
+      "16",
+      "4",
+      "24"
+    ],
+    "answer": "16",
+    "explanation": "2^4 = 16.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_discrete_math_02",
+    "skill_id": "discrete_math",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The negation of 'for all x, P(x)' is",
+    "options": [
+      "For all x, not P(x)",
+      "There exists x such that not P(x)",
+      "There exists x such that P(x)",
+      "Not for any x"
+    ],
+    "answer": "There exists x such that not P(x)",
+    "explanation": "Negating a universal gives an existential.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_discrete_math_03",
+    "skill_id": "discrete_math",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "How many edges does the complete graph K5 have?",
+    "options": [
+      "5",
+      "10",
+      "20",
+      "25"
+    ],
+    "answer": "10",
+    "explanation": "5*4/2 = 10.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_discrete_math_04",
+    "skill_id": "discrete_math",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "In how many ways can 3 people be chosen from 6?",
+    "options": [
+      "18",
+      "20",
+      "120",
+      "216"
+    ],
+    "answer": "20",
+    "explanation": "C(6,3) = 20.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_dsa_01",
+    "skill_id": "dsa",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A stack follows which order?",
+    "options": [
+      "FIFO",
+      "LIFO",
+      "Random",
+      "Priority"
+    ],
+    "answer": "LIFO",
+    "explanation": "Last in, first out.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_dsa_02",
+    "skill_id": "dsa",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Worst-case time of binary search on a sorted array of n elements is",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n log n)",
+      "O(1)"
+    ],
+    "answer": "O(log n)",
+    "explanation": "The search space halves each step.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_dsa_03",
+    "skill_id": "dsa",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Average-case time complexity of quicksort is",
+    "options": [
+      "O(n^2)",
+      "O(n log n)",
+      "O(n)",
+      "O(log n)"
+    ],
+    "answer": "O(n log n)",
+    "explanation": "Balanced partitions on average.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_dsa_04",
+    "skill_id": "dsa",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Single-source shortest paths in a graph with non-negative edge weights is best solved by",
+    "options": [
+      "DFS",
+      "Dijkstra's algorithm",
+      "Kruskal's algorithm",
+      "Topological sort"
+    ],
+    "answer": "Dijkstra's algorithm",
+    "explanation": "Dijkstra requires non-negative weights.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_dsa_05",
+    "skill_id": "dsa",
+    "difficulty": 3,
+    "kind": "practice",
+    "qtype": "mcq",
+    "prompt": "BFS on an unweighted graph finds",
+    "options": [
+      "A minimum spanning tree",
+      "Shortest paths in number of edges",
+      "Strongly connected components",
+      "A topological order"
+    ],
+    "answer": "Shortest paths in number of edges",
+    "explanation": "BFS explores level by level.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_databases_01",
+    "skill_id": "databases",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Which SQL command retrieves rows from a table?",
+    "options": [
+      "INSERT",
+      "SELECT",
+      "UPDATE",
+      "CREATE"
+    ],
+    "answer": "SELECT",
+    "explanation": "SELECT queries data.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_databases_02",
+    "skill_id": "databases",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A primary key",
+    "options": [
+      "Can contain duplicates",
+      "Uniquely identifies each row and cannot be NULL",
+      "Must be a string",
+      "Is optional in every relation"
+    ],
+    "answer": "Uniquely identifies each row and cannot be NULL",
+    "explanation": "Primary keys are unique and non-null.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_databases_03",
+    "skill_id": "databases",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Which clause filters groups after aggregation?",
+    "options": [
+      "WHERE",
+      "ORDER BY",
+      "HAVING",
+      "LIMIT"
+    ],
+    "answer": "HAVING",
+    "explanation": "HAVING applies after GROUP BY.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_databases_04",
+    "skill_id": "databases",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Which ACID property ensures committed changes survive a crash?",
+    "options": [
+      "Atomicity",
+      "Consistency",
+      "Isolation",
+      "Durability"
+    ],
+    "answer": "Durability",
+    "explanation": "Durability persists committed transactions.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_databases_05",
+    "skill_id": "databases",
+    "difficulty": 2,
+    "kind": "practice",
+    "qtype": "mcq",
+    "prompt": "Which join returns all rows of the left table even without a match?",
+    "options": [
+      "INNER JOIN",
+      "LEFT JOIN",
+      "CROSS JOIN",
+      "SELF JOIN"
+    ],
+    "answer": "LEFT JOIN",
+    "explanation": "LEFT JOIN keeps unmatched left rows with NULLs.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_os_01",
+    "skill_id": "os",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Threads of the same process share",
+    "options": [
+      "Their stack",
+      "The address space",
+      "Their program counter",
+      "Nothing"
+    ],
+    "answer": "The address space",
+    "explanation": "Threads share code, data and heap.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_os_02",
+    "skill_id": "os",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Which is NOT one of the four necessary conditions for deadlock?",
+    "options": [
+      "Mutual exclusion",
+      "Hold and wait",
+      "Circular wait",
+      "Preemption"
+    ],
+    "answer": "Preemption",
+    "explanation": "The condition is NO preemption.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_os_03",
+    "skill_id": "os",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A page fault occurs when",
+    "options": [
+      "The CPU overheats",
+      "A referenced page is not in physical memory",
+      "A file is deleted",
+      "Two threads share data"
+    ],
+    "answer": "A referenced page is not in physical memory",
+    "explanation": "The OS must load the page from disk.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_os_04",
+    "skill_id": "os",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Round-robin scheduling with a very large time quantum behaves like",
+    "options": [
+      "SJF",
+      "FCFS",
+      "Priority scheduling",
+      "Multilevel queue"
+    ],
+    "answer": "FCFS",
+    "explanation": "Each job runs to completion in arrival order.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_networks_01",
+    "skill_id": "networks",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The default port for HTTP is",
+    "options": [
+      "21",
+      "80",
+      "443",
+      "25"
+    ],
+    "answer": "80",
+    "explanation": "HTTP uses port 80 (HTTPS 443).",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_networks_02",
+    "skill_id": "networks",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Compared with UDP, TCP provides",
+    "options": [
+      "Lower latency always",
+      "Reliable, ordered delivery",
+      "Broadcast support",
+      "No connection setup"
+    ],
+    "answer": "Reliable, ordered delivery",
+    "explanation": "TCP is connection-oriented and reliable.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_networks_03",
+    "skill_id": "networks",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "DNS translates",
+    "options": [
+      "IP addresses to MAC addresses",
+      "Domain names to IP addresses",
+      "HTTP to HTTPS",
+      "Ports to sockets"
+    ],
+    "answer": "Domain names to IP addresses",
+    "explanation": "DNS resolves names to addresses.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_networks_04",
+    "skill_id": "networks",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "How many usable host addresses are there in a /24 IPv4 subnet?",
+    "options": [
+      "256",
+      "254",
+      "255",
+      "128"
+    ],
+    "answer": "254",
+    "explanation": "2^8 - 2 (network and broadcast) = 254.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_software_eng_01",
+    "skill_id": "software_eng",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Which git command records staged changes to the repository history?",
+    "options": [
+      "git push",
+      "git commit",
+      "git clone",
+      "git status"
+    ],
+    "answer": "git commit",
+    "explanation": "commit records a snapshot.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_software_eng_02",
+    "skill_id": "software_eng",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A unit test",
+    "options": [
+      "Tests the whole deployed system",
+      "Tests a single function or class in isolation",
+      "Is written only after release",
+      "Measures performance"
+    ],
+    "answer": "Tests a single function or class in isolation",
+    "explanation": "Unit tests isolate small units.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_software_eng_03",
+    "skill_id": "software_eng",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "In Scrum, a sprint is",
+    "options": [
+      "A bug report",
+      "A short time-boxed development iteration",
+      "A deployment server",
+      "A code review tool"
+    ],
+    "answer": "A short time-boxed development iteration",
+    "explanation": "Sprints are typically 1-4 weeks.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_software_eng_04",
+    "skill_id": "software_eng",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Which design pattern ensures a class has only one instance?",
+    "options": [
+      "Factory",
+      "Observer",
+      "Singleton",
+      "Adapter"
+    ],
+    "answer": "Singleton",
+    "explanation": "Singleton restricts instantiation to one object.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_web_dev_01",
+    "skill_id": "web_dev",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "HTML stands for",
+    "options": [
+      "HyperText Markup Language",
+      "High Transfer Machine Language",
+      "Hyperlink Text Mode Language",
+      "Home Tool Markup Language"
+    ],
+    "answer": "HyperText Markup Language",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_web_dev_02",
+    "skill_id": "web_dev",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Which HTTP method is normally used to fetch a resource without side effects?",
+    "options": [
+      "POST",
+      "GET",
+      "DELETE",
+      "PATCH"
+    ],
+    "answer": "GET",
+    "explanation": "GET is safe and idempotent.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_web_dev_03",
+    "skill_id": "web_dev",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "HTTP status 404 means",
+    "options": [
+      "Server error",
+      "Unauthorized",
+      "Not Found",
+      "Redirect"
+    ],
+    "answer": "Not Found",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_web_dev_04",
+    "skill_id": "web_dev",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Which status code best indicates a resource was successfully created by a REST API?",
+    "options": [
+      "200",
+      "201",
+      "204",
+      "302"
+    ],
+    "answer": "201",
+    "explanation": "201 Created.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_data_analysis_01",
+    "skill_id": "data_analysis",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Which pandas function reads a CSV file?",
+    "options": [
+      "pd.load_csv",
+      "pd.read_csv",
+      "pd.open",
+      "pd.csv"
+    ],
+    "answer": "pd.read_csv",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_data_analysis_02",
+    "skill_id": "data_analysis",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "What is the median of 3, 1, 4, 1, 5?",
+    "options": [
+      "1",
+      "3",
+      "2.8",
+      "4"
+    ],
+    "answer": "3",
+    "explanation": "Sorted: 1, 1, 3, 4, 5.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_data_analysis_03",
+    "skill_id": "data_analysis",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Best chart to show the distribution of one numeric variable?",
+    "options": [
+      "Pie chart",
+      "Histogram",
+      "Line chart over categories",
+      "Scatter of two categories"
+    ],
+    "answer": "Histogram",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_data_analysis_04",
+    "skill_id": "data_analysis",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "df.groupby('dept')['salary'].mean() returns",
+    "options": [
+      "Overall mean salary",
+      "Average salary per department",
+      "Number of departments",
+      "Max salary per department"
+    ],
+    "answer": "Average salary per department",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_ml_01",
+    "skill_id": "ml",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Supervised learning requires",
+    "options": [
+      "Labelled data",
+      "No data",
+      "Only images",
+      "Reinforcement rewards"
+    ],
+    "answer": "Labelled data",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_ml_02",
+    "skill_id": "ml",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Overfitting is indicated by",
+    "options": [
+      "High training and validation error",
+      "Low training error but high validation error",
+      "Low validation error only",
+      "Equal errors"
+    ],
+    "answer": "Low training error but high validation error",
+    "explanation": "The model memorises training data.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_ml_03",
+    "skill_id": "ml",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Linear regression is usually fit by minimising",
+    "options": [
+      "Cross-entropy",
+      "Mean squared error",
+      "Hinge loss",
+      "Accuracy"
+    ],
+    "answer": "Mean squared error",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_ml_04",
+    "skill_id": "ml",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Precision is defined as",
+    "options": [
+      "TP / (TP + FN)",
+      "TP / (TP + FP)",
+      "(TP + TN) / total",
+      "FP / (FP + TN)"
+    ],
+    "answer": "TP / (TP + FP)",
+    "explanation": "Of predicted positives, how many are correct.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_ml_05",
+    "skill_id": "ml",
+    "difficulty": 3,
+    "kind": "practice",
+    "qtype": "mcq",
+    "prompt": "The main purpose of k-fold cross-validation is to",
+    "options": [
+      "Speed up training",
+      "Estimate generalisation performance",
+      "Increase dataset size",
+      "Remove outliers"
+    ],
+    "answer": "Estimate generalisation performance",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_thermodynamics_01",
+    "skill_id": "thermodynamics",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The first law of thermodynamics expresses",
+    "options": [
+      "Conservation of energy",
+      "Increase of entropy",
+      "Absolute zero is unattainable",
+      "Thermal equilibrium"
+    ],
+    "answer": "Conservation of energy",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_thermodynamics_02",
+    "skill_id": "thermodynamics",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Carnot efficiency of an engine between 600 K and 300 K is",
+    "options": [
+      "25%",
+      "50%",
+      "75%",
+      "100%"
+    ],
+    "answer": "50%",
+    "explanation": "1 - 300/600 = 0.5.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_thermodynamics_03",
+    "skill_id": "thermodynamics",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "For an isolated system undergoing an irreversible process, entropy",
+    "options": [
+      "Decreases",
+      "Stays constant",
+      "Increases",
+      "Becomes zero"
+    ],
+    "answer": "Increases",
+    "explanation": "Second law.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_thermodynamics_04",
+    "skill_id": "thermodynamics",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "For an ideal gas in an isothermal process, the change in internal energy is",
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Equal to work done"
+    ],
+    "answer": "Zero",
+    "explanation": "U depends only on T for an ideal gas.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_fluid_mechanics_01",
+    "skill_id": "fluid_mechanics",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Reynolds number is the ratio of",
+    "options": [
+      "Inertial to viscous forces",
+      "Pressure to gravity forces",
+      "Viscous to surface tension forces",
+      "Heat to mass transfer"
+    ],
+    "answer": "Inertial to viscous forces",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_fluid_mechanics_02",
+    "skill_id": "fluid_mechanics",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Flow in a circular pipe is typically laminar when Re is below about",
+    "options": [
+      "100",
+      "2100",
+      "10,000",
+      "1,000,000"
+    ],
+    "answer": "2100",
+    "explanation": "Laminar up to roughly 2000-2300.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_fluid_mechanics_03",
+    "skill_id": "fluid_mechanics",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Bernoulli's equation assumes",
+    "options": [
+      "Unsteady compressible viscous flow",
+      "Steady, incompressible, inviscid flow along a streamline",
+      "Turbulent flow only",
+      "Two-phase flow"
+    ],
+    "answer": "Steady, incompressible, inviscid flow along a streamline",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_fluid_mechanics_04",
+    "skill_id": "fluid_mechanics",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "For incompressible flow, if a pipe's cross-section area halves, the velocity",
+    "options": [
+      "Halves",
+      "Doubles",
+      "Stays the same",
+      "Quadruples"
+    ],
+    "answer": "Doubles",
+    "explanation": "Continuity: A1V1 = A2V2.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_heat_transfer_01",
+    "skill_id": "heat_transfer",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Which mode of heat transfer needs no medium?",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation",
+      "Advection"
+    ],
+    "answer": "Radiation",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_heat_transfer_02",
+    "skill_id": "heat_transfer",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Fourier's law relates heat flux to",
+    "options": [
+      "Velocity",
+      "Temperature gradient",
+      "Pressure drop",
+      "Concentration gradient"
+    ],
+    "answer": "Temperature gradient",
+    "explanation": "q = -k dT/dx.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_heat_transfer_03",
+    "skill_id": "heat_transfer",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Units of the convective heat transfer coefficient are",
+    "options": [
+      "W/m.K",
+      "W/m^2.K",
+      "J/kg.K",
+      "W"
+    ],
+    "answer": "W/m^2.K",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_heat_transfer_04",
+    "skill_id": "heat_transfer",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "For a plane wall with fixed k and temperature difference, doubling the thickness makes the heat flux",
+    "options": [
+      "Double",
+      "Halve",
+      "Unchanged",
+      "Quadruple"
+    ],
+    "answer": "Halve",
+    "explanation": "Flux is inversely proportional to thickness.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_mass_transfer_01",
+    "skill_id": "mass_transfer",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Fick's law describes",
+    "options": [
+      "Molecular diffusion",
+      "Radiation",
+      "Viscous flow",
+      "Chemical kinetics"
+    ],
+    "answer": "Molecular diffusion",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_mass_transfer_02",
+    "skill_id": "mass_transfer",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Distillation separates components based on differences in",
+    "options": [
+      "Density",
+      "Volatility",
+      "Colour",
+      "Particle size"
+    ],
+    "answer": "Volatility",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_mass_transfer_03",
+    "skill_id": "mass_transfer",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The Schmidt number is the ratio of",
+    "options": [
+      "Momentum diffusivity to mass diffusivity",
+      "Thermal to mass diffusivity",
+      "Inertia to viscosity",
+      "Convective to diffusive heat transfer"
+    ],
+    "answer": "Momentum diffusivity to mass diffusivity",
+    "explanation": "Sc = nu / D.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_mass_transfer_04",
+    "skill_id": "mass_transfer",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "In a counter-current gas absorber, increasing the liquid flow rate (all else fixed) generally",
+    "options": [
+      "Reduces solute removal",
+      "Increases solute removal",
+      "Has no effect",
+      "Stops absorption"
+    ],
+    "answer": "Increases solute removal",
+    "explanation": "A higher L/G ratio increases the driving force.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_reaction_eng_01",
+    "skill_id": "reaction_eng",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A reaction with rate r = k C_A^2 is of order",
+    "options": [
+      "Zero",
+      "First",
+      "Second",
+      "Third"
+    ],
+    "answer": "Second",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_reaction_eng_02",
+    "skill_id": "reaction_eng",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The Arrhenius equation relates the rate constant to",
+    "options": [
+      "Pressure",
+      "Temperature",
+      "Volume",
+      "Catalyst mass only"
+    ],
+    "answer": "Temperature",
+    "explanation": "k = A exp(-Ea/RT).",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_reaction_eng_03",
+    "skill_id": "reaction_eng",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "For a first-order reaction, the half-life",
+    "options": [
+      "Depends on initial concentration",
+      "Is independent of initial concentration",
+      "Is always zero",
+      "Increases with conversion"
+    ],
+    "answer": "Is independent of initial concentration",
+    "explanation": "t1/2 = ln2 / k.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_reaction_eng_04",
+    "skill_id": "reaction_eng",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "For a positive-order reaction at the same conversion, compared with a CSTR, an ideal PFR needs",
+    "options": [
+      "A larger volume",
+      "A smaller volume",
+      "The same volume",
+      "Infinite volume"
+    ],
+    "answer": "A smaller volume",
+    "explanation": "A PFR operates at higher average concentration.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_process_control_01",
+    "skill_id": "process_control",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Feedback control works by",
+    "options": [
+      "Measuring disturbances only",
+      "Comparing the measured output with the setpoint",
+      "Fixing the valve position",
+      "Using only a model"
+    ],
+    "answer": "Comparing the measured output with the setpoint",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_process_control_02",
+    "skill_id": "process_control",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Integral action in a PID controller removes",
+    "options": [
+      "Noise",
+      "Steady-state offset",
+      "Overshoot completely",
+      "Dead time"
+    ],
+    "answer": "Steady-state offset",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_process_control_03",
+    "skill_id": "process_control",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The transfer function of a first-order system is",
+    "options": [
+      "K/(tau s + 1)",
+      "K s",
+      "K/s^2",
+      "K(tau s + 1)"
+    ],
+    "answer": "K/(tau s + 1)",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_process_control_04",
+    "skill_id": "process_control",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The Laplace transform of a unit step is",
+    "options": [
+      "1",
+      "1/s",
+      "s",
+      "1/s^2"
+    ],
+    "answer": "1/s",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_solid_mechanics_01",
+    "skill_id": "solid_mechanics",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Normal stress is defined as",
+    "options": [
+      "Force x area",
+      "Force / area",
+      "Area / force",
+      "Force / length"
+    ],
+    "answer": "Force / area",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_solid_mechanics_02",
+    "skill_id": "solid_mechanics",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Hooke's law states that within the elastic limit",
+    "options": [
+      "Stress is proportional to strain",
+      "Strain is constant",
+      "Stress is zero",
+      "Deformation is permanent"
+    ],
+    "answer": "Stress is proportional to strain",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_solid_mechanics_03",
+    "skill_id": "solid_mechanics",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The SI unit of Young's modulus is",
+    "options": [
+      "N",
+      "Pa",
+      "m",
+      "J"
+    ],
+    "answer": "Pa",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_solid_mechanics_04",
+    "skill_id": "solid_mechanics",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Maximum bending moment in a simply supported beam of span L with central point load P is",
+    "options": [
+      "PL/2",
+      "PL/4",
+      "PL/8",
+      "PL"
+    ],
+    "answer": "PL/4",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_manufacturing_01",
+    "skill_id": "manufacturing",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Casting involves",
+    "options": [
+      "Pouring molten metal into a mould",
+      "Removing chips with a tool",
+      "Joining two parts",
+      "Rolling sheets"
+    ],
+    "answer": "Pouring molten metal into a mould",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_manufacturing_02",
+    "skill_id": "manufacturing",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Which process removes material using a rotating multi-point cutter?",
+    "options": [
+      "Turning",
+      "Milling",
+      "Casting",
+      "Forging"
+    ],
+    "answer": "Milling",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_manufacturing_03",
+    "skill_id": "manufacturing",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Which welding process uses a non-consumable tungsten electrode?",
+    "options": [
+      "MIG",
+      "TIG (GTAW)",
+      "SMAW",
+      "Gas welding"
+    ],
+    "answer": "TIG (GTAW)",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_manufacturing_04",
+    "skill_id": "manufacturing",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "In Taylor's tool life equation V T^n = C, increasing cutting speed V",
+    "options": [
+      "Increases tool life",
+      "Decreases tool life",
+      "Does not affect tool life",
+      "Makes n negative"
+    ],
+    "answer": "Decreases tool life",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_machine_design_01",
+    "skill_id": "machine_design",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Factor of safety is the ratio of",
+    "options": [
+      "Failure stress to allowable (working) stress",
+      "Load to area",
+      "Strain to stress",
+      "Weight to volume"
+    ],
+    "answer": "Failure stress to allowable (working) stress",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_machine_design_02",
+    "skill_id": "machine_design",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Fatigue failure is caused by",
+    "options": [
+      "A single static overload",
+      "Cyclic, fluctuating loads",
+      "High temperature only",
+      "Corrosion only"
+    ],
+    "answer": "Cyclic, fluctuating loads",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_machine_design_03",
+    "skill_id": "machine_design",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The main purpose of a key on a shaft is to",
+    "options": [
+      "Reduce weight",
+      "Transmit torque between shaft and hub",
+      "Lubricate the bearing",
+      "Increase speed"
+    ],
+    "answer": "Transmit torque between shaft and hub",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_machine_design_04",
+    "skill_id": "machine_design",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "For ductile materials under combined loading, the most commonly used failure theory is",
+    "options": [
+      "Maximum principal stress",
+      "Maximum distortion energy (von Mises)",
+      "Maximum strain energy",
+      "Rankine"
+    ],
+    "answer": "Maximum distortion energy (von Mises)",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_cad_modelling_01",
+    "skill_id": "cad_modelling",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Orthographic projection shows an object using",
+    "options": [
+      "One 3D view",
+      "Multiple 2D views such as front, top and side",
+      "Perspective only",
+      "A photo"
+    ],
+    "answer": "Multiple 2D views such as front, top and side",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_cad_modelling_02",
+    "skill_id": "cad_modelling",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "In parametric CAD, dimensions",
+    "options": [
+      "Are only annotations",
+      "Drive the geometry and can be edited to update the model",
+      "Cannot be changed",
+      "Are added after printing"
+    ],
+    "answer": "Drive the geometry and can be edited to update the model",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_cad_modelling_03",
+    "skill_id": "cad_modelling",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "In first-angle projection, the top view is placed",
+    "options": [
+      "Above the front view",
+      "Below the front view",
+      "Left of the front view",
+      "Anywhere"
+    ],
+    "answer": "Below the front view",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_cad_modelling_04",
+    "skill_id": "cad_modelling",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "In GD&T, flatness is a",
+    "options": [
+      "Location tolerance",
+      "Form tolerance",
+      "Orientation tolerance",
+      "Runout tolerance"
+    ],
+    "answer": "Form tolerance",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_material_energy_balance_01",
+    "skill_id": "material_energy_balance",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "For a steady-state process with no reaction, total mass input equals",
+    "options": [
+      "Zero",
+      "Total mass output",
+      "Accumulation",
+      "Generation"
+    ],
+    "answer": "Total mass output",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_material_energy_balance_02",
+    "skill_id": "material_energy_balance",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "100 kg/h of a 20% NaCl solution is evaporated to 50% NaCl. How much water is removed?",
+    "options": [
+      "40 kg/h",
+      "50 kg/h",
+      "60 kg/h",
+      "80 kg/h"
+    ],
+    "answer": "60 kg/h",
+    "explanation": "Salt 20 kg; final mass 40 kg; 60 kg water removed.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_material_energy_balance_03",
+    "skill_id": "material_energy_balance",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Mixing 50 kg of 10% sugar solution with 50 kg of 30% sugar solution gives a concentration of",
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "40%"
+    ],
+    "answer": "20%",
+    "explanation": "20 kg sugar in 100 kg.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_material_energy_balance_04",
+    "skill_id": "material_energy_balance",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A 'basis of calculation' in balance problems is",
+    "options": [
+      "The final answer",
+      "A chosen reference amount or time on which calculations are based",
+      "The units used",
+      "The reactor type"
+    ],
+    "answer": "A chosen reference amount or time on which calculations are based",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_research_methods_01",
+    "skill_id": "research_methods",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A research hypothesis is",
+    "options": [
+      "A proven fact",
+      "A testable prediction",
+      "A literature summary",
+      "A dataset"
+    ],
+    "answer": "A testable prediction",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_research_methods_02",
+    "skill_id": "research_methods",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A p-value below 0.05 usually means",
+    "options": [
+      "The null hypothesis is true",
+      "Reject the null hypothesis at the 5% level",
+      "The effect is large",
+      "The experiment failed"
+    ],
+    "answer": "Reject the null hypothesis at the 5% level",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_research_methods_03",
+    "skill_id": "research_methods",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The main purpose of a literature review is to",
+    "options": [
+      "Copy prior results",
+      "Identify existing work and gaps",
+      "Format citations",
+      "Increase word count"
+    ],
+    "answer": "Identify existing work and gaps",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_research_methods_04",
+    "skill_id": "research_methods",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A confounding variable is one that",
+    "options": [
+      "Is measured last",
+      "Influences both the independent and dependent variables",
+      "Has no variance",
+      "Is always categorical"
+    ],
+    "answer": "Influences both the independent and dependent variables",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_tech_writing_01",
+    "skill_id": "tech_writing",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "An abstract is",
+    "options": [
+      "The reference list",
+      "A concise summary of the whole paper",
+      "The first experiment",
+      "An appendix"
+    ],
+    "answer": "A concise summary of the whole paper",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_tech_writing_02",
+    "skill_id": "tech_writing",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Good technical writing practice is to",
+    "options": [
+      "Use synonyms for key terms to add variety",
+      "Define terms and use them consistently",
+      "Avoid figures",
+      "Write long sentences"
+    ],
+    "answer": "Define terms and use them consistently",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_tech_writing_03",
+    "skill_id": "tech_writing",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Plagiarism is best avoided by",
+    "options": [
+      "Paraphrasing without credit",
+      "Citing sources properly",
+      "Using fewer sources",
+      "Avoiding quotes entirely"
+    ],
+    "answer": "Citing sources properly",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_tech_writing_04",
+    "skill_id": "tech_writing",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "IMRaD stands for",
+    "options": [
+      "Introduction, Methods, Results and Discussion",
+      "Ideas, Models, Reports and Data",
+      "Introduction, Motivation, Review and Data",
+      "Index, Methods, References and Diagrams"
+    ],
+    "answer": "Introduction, Methods, Results and Discussion",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_polity_governance_01",
+    "skill_id": "polity_governance",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The Constitution of India came into force on",
+    "options": [
+      "15 August 1947",
+      "26 January 1950",
+      "26 November 1949",
+      "2 October 1950"
+    ],
+    "answer": "26 January 1950",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_polity_governance_02",
+    "skill_id": "polity_governance",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Fundamental Rights are contained in which Part of the Constitution?",
+    "options": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "answer": "Part III",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_polity_governance_03",
+    "skill_id": "polity_governance",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The President of India is elected by",
+    "options": [
+      "Direct popular vote",
+      "An electoral college of elected members of Parliament and State Legislative Assemblies",
+      "The Lok Sabha only",
+      "The Prime Minister"
+    ],
+    "answer": "An electoral college of elected members of Parliament and State Legislative Assemblies",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_polity_governance_04",
+    "skill_id": "polity_governance",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Article 21 of the Constitution guarantees",
+    "options": [
+      "Right to equality",
+      "Protection of life and personal liberty",
+      "Freedom of religion",
+      "Right to constitutional remedies"
+    ],
+    "answer": "Protection of life and personal liberty",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_polity_governance_05",
+    "skill_id": "polity_governance",
+    "difficulty": 2,
+    "kind": "practice",
+    "qtype": "mcq",
+    "prompt": "Directive Principles of State Policy are in",
+    "options": [
+      "Part III",
+      "Part IV",
+      "Part IVA",
+      "Part VI"
+    ],
+    "answer": "Part IV",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_economics_01",
+    "skill_id": "economics",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "By the law of demand, when price rises (other things equal), quantity demanded",
+    "options": [
+      "Rises",
+      "Falls",
+      "Is unchanged",
+      "Becomes zero"
+    ],
+    "answer": "Falls",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_economics_02",
+    "skill_id": "economics",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "GDP measures",
+    "options": [
+      "Government revenue",
+      "Market value of final goods and services produced in a country in a period",
+      "Total exports",
+      "Money supply"
+    ],
+    "answer": "Market value of final goods and services produced in a country in a period",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_economics_03",
+    "skill_id": "economics",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Inflation is",
+    "options": [
+      "A fall in the general price level",
+      "A sustained rise in the general price level",
+      "Rise in one good's price",
+      "Growth in GDP"
+    ],
+    "answer": "A sustained rise in the general price level",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_economics_04",
+    "skill_id": "economics",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "In India, the policy repo rate is set by",
+    "options": [
+      "Ministry of Finance",
+      "NITI Aayog",
+      "RBI's Monetary Policy Committee",
+      "SEBI"
+    ],
+    "answer": "RBI's Monetary Policy Committee",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_history_society_01",
+    "skill_id": "history_society",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The Dandi March (Salt Satyagraha) took place in",
+    "options": [
+      "1920",
+      "1930",
+      "1942",
+      "1919"
+    ],
+    "answer": "1930",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_history_society_02",
+    "skill_id": "history_society",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The Quit India Movement was launched in",
+    "options": [
+      "1940",
+      "1942",
+      "1945",
+      "1935"
+    ],
+    "answer": "1942",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_history_society_03",
+    "skill_id": "history_society",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The Indian National Congress was founded in",
+    "options": [
+      "1857",
+      "1885",
+      "1905",
+      "1920"
+    ],
+    "answer": "1885",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_history_society_04",
+    "skill_id": "history_society",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The Permanent Settlement of Bengal (1793) was introduced by",
+    "options": [
+      "Lord Dalhousie",
+      "Lord Cornwallis",
+      "Lord Curzon",
+      "Warren Hastings"
+    ],
+    "answer": "Lord Cornwallis",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_ethics_aptitude_01",
+    "skill_id": "ethics_aptitude",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A conflict of interest arises when",
+    "options": [
+      "Two officers disagree",
+      "Personal interests could improperly influence official duties",
+      "A policy is unpopular",
+      "A rule is unclear"
+    ],
+    "answer": "Personal interests could improperly influence official duties",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_ethics_aptitude_02",
+    "skill_id": "ethics_aptitude",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Probity in governance primarily means",
+    "options": [
+      "Speed of decisions",
+      "Integrity, honesty and uprightness in public life",
+      "Strict hierarchy",
+      "Use of technology"
+    ],
+    "answer": "Integrity, honesty and uprightness in public life",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_ethics_aptitude_03",
+    "skill_id": "ethics_aptitude",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Emotional intelligence includes",
+    "options": [
+      "High IQ",
+      "Recognising and managing one's own and others' emotions",
+      "Suppressing all emotions",
+      "Memorising rules"
+    ],
+    "answer": "Recognising and managing one's own and others' emotions",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_ethics_aptitude_04",
+    "skill_id": "ethics_aptitude",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A whistle-blower is a person who",
+    "options": [
+      "Leads a protest",
+      "Exposes wrongdoing within an organisation",
+      "Audits accounts",
+      "Enforces discipline"
+    ],
+    "answer": "Exposes wrongdoing within an organisation",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_entrepreneurship_01",
+    "skill_id": "entrepreneurship",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "MVP stands for",
+    "options": [
+      "Most Valuable Player",
+      "Minimum Viable Product",
+      "Maximum Value Proposition",
+      "Market Validation Plan"
+    ],
+    "answer": "Minimum Viable Product",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_entrepreneurship_02",
+    "skill_id": "entrepreneurship",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Product-market fit means",
+    "options": [
+      "The product is cheap",
+      "The product satisfies strong market demand",
+      "The team is large",
+      "The product has many features"
+    ],
+    "answer": "The product satisfies strong market demand",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_entrepreneurship_03",
+    "skill_id": "entrepreneurship",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Customer acquisition cost (CAC) is",
+    "options": [
+      "Revenue per customer",
+      "Sales and marketing cost divided by number of new customers",
+      "Cost of goods sold",
+      "Churn rate"
+    ],
+    "answer": "Sales and marketing cost divided by number of new customers",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_entrepreneurship_04",
+    "skill_id": "entrepreneurship",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A startup has Rs 60 lakh in the bank and burns Rs 5 lakh per month. Its runway is",
+    "options": [
+      "6 months",
+      "12 months",
+      "5 months",
+      "30 months"
+    ],
+    "answer": "12 months",
+    "explanation": "60 / 5 = 12.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_product_mgmt_01",
+    "skill_id": "product_mgmt",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The standard user-story template is",
+    "options": [
+      "As a <user>, I want <goal> so that <benefit>",
+      "Given/When/Then only",
+      "Feature: Price: Date",
+      "Problem-Solution-Price"
+    ],
+    "answer": "As a <user>, I want <goal> so that <benefit>",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_product_mgmt_02",
+    "skill_id": "product_mgmt",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "RICE prioritisation stands for",
+    "options": [
+      "Revenue, Impact, Cost, Effort",
+      "Reach, Impact, Confidence, Effort",
+      "Risk, Investment, Cost, Execution",
+      "Reach, Interest, Clarity, Engagement"
+    ],
+    "answer": "Reach, Impact, Confidence, Effort",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_product_mgmt_03",
+    "skill_id": "product_mgmt",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "An A/B test",
+    "options": [
+      "Compares two variants by randomly splitting users",
+      "Tests two databases",
+      "Is a code review",
+      "Measures uptime"
+    ],
+    "answer": "Compares two variants by randomly splitting users",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_product_mgmt_04",
+    "skill_id": "product_mgmt",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A north-star metric is",
+    "options": [
+      "Total revenue always",
+      "A single metric that best captures the core value delivered to customers",
+      "Number of employees",
+      "Server uptime"
+    ],
+    "answer": "A single metric that best captures the core value delivered to customers",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_business_fundamentals_01",
+    "skill_id": "business_fundamentals",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The balance-sheet equation is",
+    "options": [
+      "Assets = Liabilities + Equity",
+      "Revenue = Profit + Cost",
+      "Assets = Revenue - Cost",
+      "Equity = Assets + Liabilities"
+    ],
+    "answer": "Assets = Liabilities + Equity",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_business_fundamentals_02",
+    "skill_id": "business_fundamentals",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Revenue 100 and cost of goods sold 60 gives a gross margin of",
+    "options": [
+      "60%",
+      "40%",
+      "160%",
+      "6%"
+    ],
+    "answer": "40%",
+    "explanation": "(100 - 60)/100.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_business_fundamentals_03",
+    "skill_id": "business_fundamentals",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "The break-even point is where",
+    "options": [
+      "Profit is maximised",
+      "Total revenue equals total cost",
+      "Costs are zero",
+      "Sales double"
+    ],
+    "answer": "Total revenue equals total cost",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_business_fundamentals_04",
+    "skill_id": "business_fundamentals",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A positive NPV means the project",
+    "options": [
+      "Loses money",
+      "Is expected to return more than the cost of capital",
+      "Has no risk",
+      "Pays back in one year"
+    ],
+    "answer": "Is expected to return more than the cost of capital",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_aptitude_01",
+    "skill_id": "aptitude",
+    "difficulty": 1,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "What is 20% of 150?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "answer": "30",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_aptitude_02",
+    "skill_id": "aptitude",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A 120 m long train runs at 36 km/h. How long does it take to pass a pole?",
+    "options": [
+      "10 s",
+      "12 s",
+      "15 s",
+      "20 s"
+    ],
+    "answer": "12 s",
+    "explanation": "36 km/h = 10 m/s; 120 / 10 = 12 s.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_aptitude_03",
+    "skill_id": "aptitude",
+    "difficulty": 2,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "Two numbers are in the ratio 3:5 and sum to 40. The smaller number is",
+    "options": [
+      "12",
+      "15",
+      "25",
+      "8"
+    ],
+    "answer": "15",
+    "explanation": "",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  },
+  {
+    "id": "Q_aptitude_04",
+    "skill_id": "aptitude",
+    "difficulty": 3,
+    "kind": "diagnostic",
+    "qtype": "mcq",
+    "prompt": "A finishes a job in 10 days and B in 15 days. Working together they take",
+    "options": [
+      "5 days",
+      "6 days",
+      "12.5 days",
+      "25 days"
+    ],
+    "answer": "6 days",
+    "explanation": "1/10 + 1/15 = 1/6.",
+    "source": "Authored by the team from standard syllabus content; reviewed for a single correct answer"
+  }
+]

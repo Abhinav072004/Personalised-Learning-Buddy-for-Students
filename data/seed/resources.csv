@@ -1,0 +1,62 @@
+id,title,provider,url,skill_ids,format,level,est_hours,license,credit_eligible
+R_MIT1801,MIT 18.01SC Single Variable Calculus,MIT OCW,https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/,calculus,course,1,30,CC BY-NC-SA,false
+R_KA_CALC,Khan Academy: Calculus 1,Khan Academy,https://www.khanacademy.org/math/calculus-1,calculus,video,1,15,CC BY-NC-SA,false
+R_MIT1806,MIT 18.06 Linear Algebra (Gilbert Strang),MIT OCW,https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/,linear_algebra,video,2,35,CC BY-NC-SA,false
+R_3B1B_LA,Essence of Linear Algebra (video series),3Blue1Brown,https://www.3blue1brown.com/topics/linear-algebra,linear_algebra,video,1,4,Free to view,false
+R_MIT1805,MIT 18.05 Introduction to Probability and Statistics,MIT OCW,https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2014/,"prob_stats,research_methods",course,2,30,CC BY-NC-SA,false
+R_KA_STATS,Khan Academy: Statistics and Probability,Khan Academy,https://www.khanacademy.org/math/statistics-probability,"prob_stats,data_analysis",video,1,20,CC BY-NC-SA,false
+R_MIT10_34,MIT 10.34 Numerical Methods Applied to Chemical Engineering,MIT OCW,https://ocw.mit.edu/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/,numerical_methods,course,3,30,CC BY-NC-SA,false
+R_MIT6_0001,MIT 6.0001 Introduction to Computer Science and Programming in Python,MIT OCW,https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/,prog_fund,video,1,25,CC BY-NC-SA,false
+R_CS50,CS50x: Introduction to Computer Science,Harvard (CS50),https://cs50.harvard.edu/x/,"prog_fund,dsa,web_dev",video,1,40,CC BY-NC-SA,false
+R_NPTEL_PDSA,"NPTEL: Programming, Data Structures and Algorithms using Python",NPTEL,https://nptel.ac.in/courses/106106145,"prog_fund,dsa",course,2,40,CC BY-SA (NPTEL),true
+R_MIT6_006,MIT 6.006 Introduction to Algorithms,MIT OCW,https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/,dsa,video,2,40,CC BY-NC-SA,false
+R_NPTEL_DSA,NPTEL: Data Structures and Algorithms (IIT Delhi),NPTEL,https://nptel.ac.in/courses/106102064,dsa,video,2,30,CC BY-SA (NPTEL),false
+R_PRACTICE_DSA,"Coding-practice platform problem sets (arrays, trees, graphs, DP)",Coding practice,https://leetcode.com/problemset/,dsa,practice,2,30,Free tier,false
+R_MIT6_042,MIT 6.042J Mathematics for Computer Science,MIT OCW,https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/,discrete_math,course,2,35,CC BY-NC-SA,false
+R_MIT6_005,MIT 6.005 Software Construction,MIT OCW,https://ocw.mit.edu/courses/6-005-software-construction-spring-2016/,"oop,software_eng",text,2,30,CC BY-NC-SA,false
+R_NPTEL_DBMS,NPTEL: Database Management System (IIT Kharagpur),NPTEL,https://nptel.ac.in/courses/106105175,databases,course,2,30,CC BY-SA (NPTEL),true
+R_SQLBOLT,SQLBolt interactive SQL lessons,SQLBolt,https://sqlbolt.com/,databases,practice,1,5,Free,false
+R_KAGGLE_SQL,Kaggle Learn: Intro to SQL,Kaggle Learn,https://www.kaggle.com/learn/intro-to-sql,"databases,data_analysis",practice,1,4,Free,false
+R_OSTEP,Operating Systems: Three Easy Pieces (free textbook),OSTEP,https://pages.cs.wisc.edu/~remzi/OSTEP/,os,text,2,30,Free online,false
+R_MIT6_828,MIT 6.828 Operating System Engineering,MIT OCW,https://ocw.mit.edu/courses/6-828-operating-system-engineering-fall-2012/,os,course,3,40,CC BY-NC-SA,false
+R_NPTEL_CN,NPTEL: Computer Networks and Internet Protocol,NPTEL,https://nptel.ac.in/courses,networks,video,2,30,CC BY-SA (NPTEL),true
+R_MISSING,"The Missing Semester of Your CS Education (shell, git, tools)",MIT CSAIL,https://missing.csail.mit.edu/,software_eng,video,1,11,CC BY-NC-SA,false
+R_ODIN,The Odin Project: Full-stack web development,The Odin Project,https://www.theodinproject.com/,web_dev,practice,1,60,Free (CC BY-NC-SA content),false
+R_MDN,MDN Web Docs: Learn web development,MDN,https://developer.mozilla.org/en-US/docs/Learn,web_dev,text,1,20,CC BY-SA,false
+R_KAGGLE_PANDAS,Kaggle Learn: Pandas,Kaggle Learn,https://www.kaggle.com/learn/pandas,data_analysis,practice,1,4,Free,false
+R_PYDSH,Python Data Science Handbook (Jake VanderPlas),Open book,https://jakevdp.github.io/PythonDataScienceHandbook/,"data_analysis,ml",text,2,25,"CC BY-NC-ND (text), MIT (code)",false
+R_MIT6_036,MIT 6.036 Introduction to Machine Learning,MIT OCW,https://ocw.mit.edu/courses/6-036-introduction-to-machine-learning-fall-2020/,ml,course,2,40,CC BY-NC-SA,false
+R_GOOGLE_MLCC,Google Machine Learning Crash Course,Google,https://developers.google.com/machine-learning/crash-course,ml,video,1,15,CC BY 4.0,false
+R_NPTEL_ML,NPTEL: Introduction to Machine Learning,NPTEL,https://nptel.ac.in/courses,ml,course,2,40,CC BY-SA (NPTEL),true
+R_MIT10_40,MIT 10.40 Chemical Engineering Thermodynamics,MIT OCW,https://ocw.mit.edu/courses/10-40-chemical-engineering-thermodynamics-fall-2003/,thermodynamics,text,2,30,CC BY-NC-SA,false
+R_NPTEL_THERMO,NPTEL: Basic Thermodynamics / Applied Thermodynamics (Mechanical),NPTEL,https://nptel.ac.in/courses,thermodynamics,video,1,25,CC BY-SA (NPTEL),true
+R_MIT2_25,MIT 2.25 Advanced Fluid Mechanics,MIT OCW,https://ocw.mit.edu/courses/2-25-advanced-fluid-mechanics-fall-2013/,fluid_mechanics,course,3,35,CC BY-NC-SA,false
+R_NPTEL_FM,NPTEL: Fluid Mechanics,NPTEL,https://nptel.ac.in/courses,fluid_mechanics,video,1,25,CC BY-SA (NPTEL),true
+R_LIENHARD,"A Heat Transfer Textbook (Lienhard & Lienhard, free)",Open book,https://ahtt.mit.edu/,"heat_transfer,mass_transfer",text,2,30,Free (author-provided),false
+R_NPTEL_HMT,NPTEL: Heat and Mass Transfer,NPTEL,https://nptel.ac.in/courses,"heat_transfer,mass_transfer",video,1,25,CC BY-SA (NPTEL),true
+R_MIT10_37,MIT 10.37 Chemical and Biological Reaction Engineering,MIT OCW,https://ocw.mit.edu/courses/10-37-chemical-and-biological-reaction-engineering-spring-2007/,reaction_eng,course,2,30,CC BY-NC-SA,false
+R_LEARNCHEME,LearnChemE screencasts and interactive simulations,University of Colorado Boulder,https://learncheme.com/,"material_energy_balance,reaction_eng,mass_transfer,thermodynamics",video,1,15,CC BY (most content),false
+R_MIT10_450,"MIT 10.450 Process Dynamics, Operations, and Control",MIT OCW,https://ocw.mit.edu/courses/10-450-process-dynamics-operations-and-control-spring-2006/,process_control,course,2,25,CC BY-NC-SA,false
+R_MIT2_14,MIT 2.14 Analysis and Design of Feedback Control Systems,MIT OCW,https://ocw.mit.edu/courses/2-14-analysis-and-design-of-feedback-control-systems-spring-2014/,process_control,course,3,30,CC BY-NC-SA,false
+R_MIT2_001,MIT 2.001 Mechanics and Materials I,MIT OCW,https://ocw.mit.edu/courses/2-001-mechanics-materials-i-fall-2006/,"solid_mechanics,machine_design",course,2,30,CC BY-NC-SA,false
+R_MIT2_008,MIT 2.008 Design and Manufacturing II,MIT OCW,https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2004/,manufacturing,course,2,25,CC BY-NC-SA,false
+R_NPTEL_MFG,NPTEL: Manufacturing Processes,NPTEL,https://nptel.ac.in/courses,manufacturing,video,1,25,CC BY-SA (NPTEL),true
+R_NPTEL_DME,NPTEL: Design of Machine Elements,NPTEL,https://nptel.ac.in/courses,machine_design,video,2,25,CC BY-SA (NPTEL),true
+R_FREECAD,FreeCAD documentation and tutorials,FreeCAD,https://wiki.freecad.org/Tutorials,cad_modelling,practice,1,10,CC BY 3.0,false
+R_MIT10_10,MIT 10.10 Introduction to Chemical Engineering,MIT OCW,https://ocw.mit.edu/courses/10-10-introduction-to-chemical-engineering-fall-2020/,material_energy_balance,course,1,20,CC BY-NC-SA,false
+R_KESHAV,How to Read a Paper (S. Keshav),ACM SIGCOMM CCR,http://ccr.sigcomm.org/online/files/p83-keshavA.pdf,research_methods,text,1,1,Free,false
+R_PURDUE_OWL,Purdue Online Writing Lab (OWL),Purdue OWL,https://owl.purdue.edu/owl/purdue_owl.html,tech_writing,text,1,8,Free,false
+R_MIT21W,MIT 21W.035 Science Writing and New Media,MIT OCW,https://ocw.mit.edu/courses/21w-035-science-writing-and-new-media-fall-2015/,tech_writing,text,2,15,CC BY-NC-SA,false
+R_NCERT_POL,NCERT Class XI: Indian Constitution at Work,NCERT,https://ncert.nic.in/textbook.php,polity_governance,text,1,20,Free (Govt. of India),false
+R_UPSC_SYL,UPSC Civil Services Examination notice & syllabus,UPSC,https://upsc.gov.in/examinations/active-exams,"polity_governance,history_society,economics,ethics_aptitude",text,1,2,Public,false
+R_NCERT_ECO,"NCERT Class XI/XII: Indian Economic Development, Macroeconomics",NCERT,https://ncert.nic.in/textbook.php,economics,text,1,25,Free (Govt. of India),false
+R_MIT14_01,MIT 14.01 Principles of Microeconomics,MIT OCW,https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/,economics,video,2,30,CC BY-NC-SA,false
+R_NCERT_HIS,NCERT Class XII: Themes in Indian History III; Spectrum-style revision notes,NCERT,https://ncert.nic.in/textbook.php,history_society,text,1,25,Free (Govt. of India),false
+R_NPTEL_ETHICS,NPTEL humanities: Ethics (philosophy) lectures,NPTEL,https://nptel.ac.in/courses,ethics_aptitude,video,1,15,CC BY-SA (NPTEL),false
+R_YCSS,Y Combinator Startup School,Y Combinator,https://www.startupschool.org/,"entrepreneurship,product_mgmt",video,1,20,Free,false
+R_MIT15_390,MIT 15.390 New Enterprises,MIT OCW,https://ocw.mit.edu/courses/15-390-new-enterprises-spring-2013/,entrepreneurship,course,2,25,CC BY-NC-SA,false
+R_MIT15_401,MIT 15.401 Finance Theory I,MIT OCW,https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/,business_fundamentals,video,2,25,CC BY-NC-SA,false
+R_KA_FIN,Khan Academy: Accounting and financial statements,Khan Academy,https://www.khanacademy.org/economics-finance-domain/core-finance,business_fundamentals,video,1,8,CC BY-NC-SA,false
+R_PM_MIT,MIT 15.783J Product Design and Development,MIT OCW,https://ocw.mit.edu/courses/15-783j-product-design-and-development-spring-2006/,product_mgmt,course,2,20,CC BY-NC-SA,false
+R_APT_PRACTICE,"Quantitative aptitude practice sets (percentages, ratios, time-work)",Institute T&P cell (illustrative),local://tnp/aptitude-sets,aptitude,practice,1,15,Institute internal,false
+R_KA_ARITH,Khan Academy: Arithmetic and pre-algebra,Khan Academy,https://www.khanacademy.org/math/arithmetic,aptitude,video,1,10,CC BY-NC-SA,false

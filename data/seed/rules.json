@@ -1,0 +1,125 @@
+[
+  {
+    "key": "max_credits_per_semester",
+    "value": 24,
+    "description": "Normal maximum registered credits in a regular semester",
+    "source": "Institute curriculum (illustrative; modelled on a typical IIT B.Tech structure - verify against the official academic handbook)"
+  },
+  {
+    "key": "overload",
+    "value": {
+      "min_cgpa": 8.0,
+      "max_credits": 28
+    },
+    "description": "Students with CGPA >= 8.0 may register up to 28 credits",
+    "source": "Institute curriculum (illustrative; modelled on a typical IIT B.Tech structure - verify against the official academic handbook)"
+  },
+  {
+    "key": "min_credits_per_semester",
+    "value": 12,
+    "description": "Minimum registered credits in a regular semester",
+    "source": "Institute curriculum (illustrative; modelled on a typical IIT B.Tech structure - verify against the official academic handbook)"
+  },
+  {
+    "key": "pass_grade",
+    "value": "D",
+    "description": "Minimum passing grade; F is a backlog",
+    "source": "Institute curriculum (illustrative; modelled on a typical IIT B.Tech structure - verify against the official academic handbook)"
+  },
+  {
+    "key": "grade_points",
+    "value": {
+      "A+": 10,
+      "A": 10,
+      "A-": 9,
+      "B": 8,
+      "B-": 7,
+      "C": 6,
+      "C-": 5,
+      "D": 4,
+      "F": 0
+    },
+    "description": "Letter grade to grade-point mapping",
+    "source": "Institute curriculum (illustrative; modelled on a typical IIT B.Tech structure - verify against the official academic handbook)"
+  },
+  {
+    "key": "backlog_policy",
+    "value": {
+      "reregister_next_offering": true,
+      "priority_over_electives": true
+    },
+    "description": "A failed core course must be re-registered the next time it is offered, before new electives",
+    "source": "Institute curriculum (illustrative; modelled on a typical IIT B.Tech structure - verify against the official academic handbook)"
+  },
+  {
+    "key": "minor_policy",
+    "value": {
+      "from_semester": 4,
+      "max_minors": 1,
+      "cgpa_checked_at_registration": true
+    },
+    "description": "Minor courses may be taken from semester 4; CGPA eligibility is checked at registration; one minor at most",
+    "source": "Institute curriculum (illustrative; modelled on a typical IIT B.Tech structure - verify against the official academic handbook)"
+  },
+  {
+    "key": "minor_courses_as_open_electives",
+    "value": true,
+    "description": "Courses from another department's minor list may fill open-elective slots",
+    "source": "Institute curriculum (illustrative; modelled on a typical IIT B.Tech structure - verify against the official academic handbook)"
+  },
+  {
+    "key": "online_credit",
+    "value": {
+      "max_courses": 2,
+      "counts_as": "open_elective",
+      "requires": "Proctored NPTEL/SWAYAM exam certificate",
+      "max_credits": 6
+    },
+    "description": "Up to two online NPTEL/SWAYAM courses (max 6 credits) may be credited as open electives with a proctored exam certificate",
+    "source": "Institute curriculum (illustrative; modelled on a typical IIT B.Tech structure - verify against the official academic handbook); UGC (Credit Framework for Online Learning Courses through SWAYAM) Regulations, 2021"
+  },
+  {
+    "key": "semester_calendar",
+    "value": {
+      "weeks": 16,
+      "midsem_week": 8,
+      "endsem_weeks": [
+        15,
+        16
+      ],
+      "exam_week_capacity": 0.5,
+      "odd": "Jul-Nov",
+      "even": "Jan-Apr"
+    },
+    "description": "Teaching weeks and exam weeks; self-study capacity halves in exam weeks",
+    "source": "Institute curriculum (illustrative; modelled on a typical IIT B.Tech structure - verify against the official academic handbook)"
+  },
+  {
+    "key": "total_semesters",
+    "value": 8,
+    "description": "Regular B.Tech duration in semesters",
+    "source": "Institute curriculum (illustrative; modelled on a typical IIT B.Tech structure - verify against the official academic handbook)"
+  },
+  {
+    "key": "evidence_reliability",
+    "value": {
+      "assessment": 1.0,
+      "mock": 1.0,
+      "project": 0.9,
+      "exercise": 0.8,
+      "grade": 0.6,
+      "self": 0.2
+    },
+    "description": "Reliability weight of each evidence source used by the mastery model (product decision)",
+    "source": "Learning Buddy design"
+  },
+  {
+    "key": "mastery_thresholds",
+    "value": {
+      "min_confidence": 0.55,
+      "require_tested_evidence": true
+    },
+    "description": "A skill counts as demonstrated only with enough confidence and at least one tested (assessment/exercise/project/mock) evidence item",
+    "source": "Learning Buddy design"
+  }
+]

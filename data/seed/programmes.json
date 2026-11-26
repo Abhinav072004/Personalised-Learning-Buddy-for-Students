@@ -1,0 +1,74 @@
+[
+  {
+    "id": "CHE",
+    "name": "B.Tech Chemical Engineering",
+    "department": "CHE",
+    "total_credits": 160,
+    "elective_slots": {
+      "4": {
+        "open_elective": 1
+      },
+      "5": {
+        "open_elective": 1
+      },
+      "6": {
+        "open_elective": 1,
+        "dept_elective": 1
+      },
+      "7": {
+        "open_elective": 2,
+        "dept_elective": 1
+      },
+      "8": {
+        "open_elective": 2,
+        "dept_elective": 1
+      }
+    },
+    "core_skills": [
+      "material_energy_balance",
+      "thermodynamics",
+      "fluid_mechanics",
+      "heat_transfer",
+      "mass_transfer",
+      "reaction_eng",
+      "process_control"
+    ],
+    "source": "Institute curriculum (illustrative; modelled on a typical IIT B.Tech structure - verify against the official academic handbook)"
+  },
+  {
+    "id": "ME",
+    "name": "B.Tech Mechanical Engineering",
+    "department": "ME",
+    "total_credits": 160,
+    "elective_slots": {
+      "4": {
+        "open_elective": 1
+      },
+      "5": {
+        "open_elective": 1
+      },
+      "6": {
+        "open_elective": 1,
+        "dept_elective": 1
+      },
+      "7": {
+        "open_elective": 2,
+        "dept_elective": 1
+      },
+      "8": {
+        "open_elective": 2,
+        "dept_elective": 1
+      }
+    },
+    "core_skills": [
+      "thermodynamics",
+      "solid_mechanics",
+      "fluid_mechanics",
+      "heat_transfer",
+      "manufacturing",
+      "machine_design",
+      "process_control"
+    ],
+    "source": "Institute curriculum (illustrative; modelled on a typical IIT B.Tech structure - verify against the official academic handbook)"
+  }
+]
