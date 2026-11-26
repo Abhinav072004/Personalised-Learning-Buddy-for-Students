@@ -91,6 +91,13 @@ def build_plan(kb: KB, student: dict, states: dict, diag: dict, done_modules: se
     pinned = [p for p in cons.get("pinned_courses", []) if p not in taken]
     infeasible, semesters, notes_global = [], [], []
 
+    th = kb.rule("mastery_thresholds", {"min_confidence": 0.55})
+
+    def already_mastered(code):
+        sk = kb.course_skills.get(code, {})
+        return bool(sk) and all(states[x]["mastery"] >= lvl and states[x]["tested"]
+                                and states[x]["confidence"] >= th["min_confidence"] for x, lvl in sk.items())
+
     def value(code, sem_courses_after):
         g, parts = course_skill_gain(kb, code, need, projected)
         # enabling value: unlocks a later course that closes gaps
@@ -161,6 +168,8 @@ def build_plan(kb: KB, student: dict, states: dict, diag: dict, done_modules: se
                 cl = credits_left() if kind != "extra" else min(credits_left(), extra_budget_left[0])
                 if course_blockers(kb, student, code, sem, taken_before, chosen, cl, tuple(online_used)):
                     continue
+                if code not in pinned and already_mastered(code):
+                    continue  # never assign content the student has already demonstrated
                 v, parts, unlock = value(code, chosen)
                 if code in pinned:
                     v += 100
