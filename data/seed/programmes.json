@@ -5,6 +5,9 @@
     "department": "CHE",
     "total_credits": 160,
     "elective_slots": {
+      "3": {
+        "open_elective": 1
+      },
       "4": {
         "open_elective": 1
       },
@@ -17,11 +20,11 @@
       },
       "7": {
         "open_elective": 2,
-        "dept_elective": 1
+        "dept_elective": 2
       },
       "8": {
-        "open_elective": 2,
-        "dept_elective": 1
+        "open_elective": 3,
+        "dept_elective": 2
       }
     },
     "core_skills": [
@@ -41,6 +44,9 @@
     "department": "ME",
     "total_credits": 160,
     "elective_slots": {
+      "3": {
+        "open_elective": 1
+      },
       "4": {
         "open_elective": 1
       },
@@ -53,11 +59,11 @@
       },
       "7": {
         "open_elective": 2,
-        "dept_elective": 1
+        "dept_elective": 2
       },
       "8": {
-        "open_elective": 2,
-        "dept_elective": 1
+        "open_elective": 3,
+        "dept_elective": 2
       }
     },
     "core_skills": [

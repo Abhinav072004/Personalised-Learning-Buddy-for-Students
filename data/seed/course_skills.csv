@@ -11,6 +11,10 @@ CY101,thermodynamics,0.25
 CY101,reaction_eng,0.2
 ME102,cad_modelling,0.5
 CH201,material_energy_balance,0.8
+CH205,fluid_mechanics,0.5
+CH305,material_energy_balance,0.5
+ME205,manufacturing,0.3
+ME305,machine_design,0.45
 CH202,fluid_mechanics,0.7
 CH203,thermodynamics,0.8
 CH204,heat_transfer,0.75
