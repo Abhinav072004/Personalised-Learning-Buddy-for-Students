@@ -1,0 +1,8550 @@
+[
+ {
+  "id": "S1024",
+  "name": "Student S1024",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.76,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "C",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "B-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software engineering role after graduation",
+  "interests": [
+   "machine learning"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [
+    [
+     "CS201",
+     "CS102"
+    ]
+   ],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "open_elective_slots": 2,
+   "extra_credit_headroom": 6
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady",
+   "notes": "short videos, hands-on coding problems"
+  },
+  "persona": "Problem-statement example: ChE Year 3 aiming for software; weak DSA and databases",
+  "evidence": [
+   {
+    "skill_id": "prog_fund",
+    "source": "assessment",
+    "score": 0.78,
+    "detail": "Diagnostic: programming fundamentals 78%",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "discrete_math",
+    "source": "assessment",
+    "score": 0.55,
+    "detail": "Diagnostic: discrete maths 55%",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "dsa",
+    "source": "assessment",
+    "score": 0.32,
+    "detail": "Diagnostic: data structures & algos 32%",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "databases",
+    "source": "assessment",
+    "score": 0.1,
+    "detail": "Diagnostic: databases 10%",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "ml",
+    "source": "self",
+    "score": 0.6,
+    "detail": "Self-declared interest in machine learning",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "P001",
+  "name": "Aarav S.",
+  "programme": "CHE",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 8.39,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B",
+    "semester": 3
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software / IT role after graduation",
+  "interests": [
+   "coding",
+   "web"
+  ],
+  "constraints": {
+   "hours_per_week": 10,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Appendix A: 2nd-year ChE student targeting a software role",
+  "evidence": [
+   {
+    "skill_id": "prog_fund",
+    "source": "self",
+    "score": 0.7,
+    "detail": "Self-declared: comfortable with Python",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "P002",
+  "name": "Diya R.",
+  "programme": "ME",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 8.91,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "B",
+    "semester": 5
+   }
+  ],
+  "goal_id": "higher_studies",
+  "goal_text": "MS in robotics/controls abroad",
+  "interests": [
+   "control systems",
+   "research"
+  ],
+  "constraints": {
+   "hours_per_week": 10,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Appendix A: higher studies (MS abroad), protect CGPA, research project, GRE/TOEFL timeline",
+  "evidence": []
+ },
+ {
+  "id": "P003",
+  "name": "Kabir N.",
+  "programme": "CHE",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 6.76,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "C-",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   }
+  ],
+  "goal_id": "upsc_cse",
+  "goal_text": "UPSC civil services (IAS)",
+  "interests": [
+   "polity",
+   "history"
+  ],
+  "constraints": {
+   "hours_per_week": 12,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Appendix A: UPSC aspirant; HSS electives supporting optional subject; protect CGPA",
+  "evidence": [
+   {
+    "skill_id": "polity_governance",
+    "source": "self",
+    "score": 0.5,
+    "detail": "Self-declared: read Laxmikanth partly",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "P004",
+  "name": "Ananya T.",
+  "programme": "ME",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 8.08,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "B",
+    "semester": 3
+   }
+  ],
+  "goal_id": "startup_founder",
+  "goal_text": "Build and launch a hardware startup",
+  "interests": [
+   "startups",
+   "product"
+  ],
+  "constraints": {
+   "hours_per_week": 9,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Appendix A: interested in a startup; entrepreneurship and product courses; incubation cell",
+  "evidence": []
+ },
+ {
+  "id": "P005",
+  "name": "Rohan M.",
+  "programme": "ME",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 7.18,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "B",
+    "semester": 3
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data analytics role by end of third year",
+  "interests": [
+   "analytics",
+   "sql"
+  ],
+  "constraints": {
+   "hours_per_week": 7,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "PM example persona: 2nd-year ME student aiming for a data-analytics role",
+  "evidence": []
+ },
+ {
+  "id": "E001",
+  "name": "Isha P.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 6.93,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "D",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "C-",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "B",
+    "semester": 5
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data science",
+  "interests": [
+   "data science",
+   "ml"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Edge case: interest (data science) conflicts with evidence (weak linear algebra)",
+  "evidence": [
+   {
+    "skill_id": "ml",
+    "source": "self",
+    "score": 0.8,
+    "detail": "Self-declared: strong interest and some Kaggle notebooks",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "linear_algebra",
+    "source": "assessment",
+    "score": 0.3,
+    "detail": "Diagnostic: linear algebra 30%",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "E002",
+  "name": "Arjun V.",
+  "programme": "ME",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 5.43,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "C-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "C-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "D",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "C-",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "F",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "C-",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "C-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "core_engineer",
+  "goal_text": "Core mechanical design job",
+  "interests": [],
+  "constraints": {
+   "hours_per_week": 10,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Edge case: backlog in a core course (Fluid Mechanics) that must be cleared",
+  "evidence": []
+ },
+ {
+  "id": "E003",
+  "name": "Meera J.",
+  "programme": "CHE",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 7.47,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software role; wants the CS minor",
+  "interests": [],
+  "constraints": {
+   "hours_per_week": 9,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Edge case: CGPA just below the CS-minor cut-off (7.5)",
+  "evidence": []
+ },
+ {
+  "id": "E004",
+  "name": "Vihaan K.",
+  "programme": "ME",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 8.24,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "A",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "C",
+    "semester": 5
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Switched from GATE prep to data analytics",
+  "interests": [
+   "data"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Edge case: changing goals (was gate_core, now data analytics)",
+  "evidence": [
+   {
+    "skill_id": "thermodynamics",
+    "source": "assessment",
+    "score": 0.8,
+    "detail": "GATE mock: thermodynamics 80%",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "aptitude",
+    "source": "mock",
+    "score": 0.72,
+    "detail": "GATE mock: general aptitude 72%",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ],
+  "memories": [
+   {
+    "kind": "decision",
+    "content": "Semester 5: goal changed from gate_core (GATE / M.Tech) to data_analyst after an analytics internship. Keep GATE as a fallback."
+   }
+  ]
+ },
+ {
+  "id": "E005",
+  "name": "Saanvi B.",
+  "programme": "CHE",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 7.68,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   }
+  ],
+  "goal_id": "",
+  "goal_text": "I just want a good job after college",
+  "interests": [],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Edge case: vague goal; buddy must ask clarifying questions",
+  "evidence": []
+ },
+ {
+  "id": "E006",
+  "name": "Aditya G.",
+  "programme": "ME",
+  "year": 4,
+  "current_semester": 8,
+  "cgpa": 7.04,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "C-",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "C-",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "C",
+    "semester": 5
+   },
+   {
+    "code": "ME303",
+    "grade": "B-",
+    "semester": 6
+   },
+   {
+    "code": "ME304",
+    "grade": "B-",
+    "semester": 6
+   },
+   {
+    "code": "BT491",
+    "grade": "B",
+    "semester": 7
+   },
+   {
+    "code": "CS102",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "DS201",
+    "grade": "B",
+    "semester": 6
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software role, placement season soon",
+  "interests": [],
+  "constraints": {
+   "hours_per_week": 15,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Edge case: final-year student with one semester left",
+  "evidence": []
+ },
+ {
+  "id": "E007",
+  "name": "Riya D.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 9.22,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "B",
+    "semester": 5
+   }
+  ],
+  "goal_id": "higher_studies",
+  "goal_text": "PhD in catalysis",
+  "interests": [],
+  "constraints": {
+   "hours_per_week": 6,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Edge case: high CGPA, overload-eligible, research evidence already present",
+  "evidence": [
+   {
+    "skill_id": "research_methods",
+    "source": "project",
+    "score": 0.7,
+    "detail": "Summer research project report",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "E008",
+  "name": "Krishna L.",
+  "programme": "ME",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 6.71,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "C-",
+    "semester": 3
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software role",
+  "interests": [],
+  "constraints": {
+   "hours_per_week": 3,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Edge case: only 3 hours/week available",
+  "evidence": []
+ },
+ {
+  "id": "E009",
+  "name": "Tara F.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.95,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "CS102",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "CS202",
+    "grade": "B",
+    "semester": 5
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software role",
+  "interests": [],
+  "constraints": {
+   "hours_per_week": 10,
+   "not_together": [],
+   "excluded_courses": [
+    "CS303"
+   ],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Edge case: already strong in DSA (must not repeat content); rejected Software Engineering course",
+  "evidence": [
+   {
+    "skill_id": "dsa",
+    "source": "assessment",
+    "score": 0.85,
+    "detail": "Timed DSA test 85%",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "prog_fund",
+    "source": "assessment",
+    "score": 0.9,
+    "detail": "Coding test 90%",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ],
+  "memories": [
+   {
+    "kind": "override",
+    "content": "Student rejected CS303 Software Engineering (prefers learning via own team project)."
+   }
+  ]
+ },
+ {
+  "id": "E010",
+  "name": "Ishaan Q.",
+  "programme": "ME",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 8.53,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   }
+  ],
+  "goal_id": "gate_core",
+  "goal_text": "GATE for IIT M.Tech",
+  "interests": [],
+  "constraints": {
+   "hours_per_week": 6,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Edge case: first-year student planning far ahead",
+  "evidence": []
+ },
+ {
+  "id": "S2001",
+  "name": "Riya M.",
+  "programme": "ME",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 8.68,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "A",
+    "semester": 3
+   }
+  ],
+  "goal_id": "higher_studies",
+  "goal_text": "MS or PhD",
+  "interests": [
+   "simulation",
+   "research"
+  ],
+  "constraints": {
+   "hours_per_week": 12,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "text",
+    "practice"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 2, goal higher_studies",
+  "evidence": [
+   {
+    "skill_id": "research_methods",
+    "source": "assessment",
+    "score": 0.48,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 3,
+    "time_spent_min": 21
+   }
+  ]
+ },
+ {
+  "id": "S2002",
+  "name": "Vihaan D.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 6.28,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "C-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "D",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "C-",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "C",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "C-",
+    "semester": 5
+   },
+   {
+    "code": "DS201",
+    "grade": "B-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data analyst / data scientist",
+  "interests": [
+   "ml",
+   "statistics"
+  ],
+  "constraints": {
+   "hours_per_week": 5,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 3
+  },
+  "preferences": {
+   "formats": [
+    "video"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 3, goal data_analyst",
+  "evidence": [
+   {
+    "skill_id": "prob_stats",
+    "source": "assessment",
+    "score": 0.23,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 1,
+    "time_spent_min": 16
+   },
+   {
+    "skill_id": "databases",
+    "source": "self",
+    "score": 0.68,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2003",
+  "name": "Neha D.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 6.83,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "C-",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "C-",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "C",
+    "semester": 5
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data analyst / data scientist",
+  "interests": [
+   "statistics",
+   "data"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "max_credits": 22
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 3, goal data_analyst",
+  "evidence": [
+   {
+    "skill_id": "databases",
+    "source": "assessment",
+    "score": 0.86,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 2,
+    "time_spent_min": 6
+   }
+  ]
+ },
+ {
+  "id": "S2004",
+  "name": "Harpreet P.",
+  "programme": "CHE",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 9.11,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "A-",
+    "semester": 3
+   }
+  ],
+  "goal_id": "higher_studies",
+  "goal_text": "MS or PhD",
+  "interests": [
+   "simulation",
+   "research"
+  ],
+  "constraints": {
+   "hours_per_week": 6,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "text"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 2, goal higher_studies",
+  "evidence": [
+   {
+    "skill_id": "research_methods",
+    "source": "self",
+    "score": 0.59,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "linear_algebra",
+    "source": "self",
+    "score": 0.46,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2005",
+  "name": "Ananya A.",
+  "programme": "ME",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 6.0,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "C-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "C-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "C-",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "B-",
+    "semester": 3
+   }
+  ],
+  "goal_id": "startup_founder",
+  "goal_text": "Start my own company",
+  "interests": [
+   "product",
+   "startups"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "max_credits": 22
+  },
+  "preferences": {
+   "formats": [
+    "text",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 2, goal startup_founder",
+  "evidence": [
+   {
+    "skill_id": "business_fundamentals",
+    "source": "self",
+    "score": 0.43,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2006",
+  "name": "Faizan V.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 8.56,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "A-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software developer role",
+  "interests": [
+   "web",
+   "coding"
+  ],
+  "constraints": {
+   "hours_per_week": 12,
+   "not_together": [
+    [
+     "CS201",
+     "HS201"
+    ]
+   ],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 3, goal software_engineer",
+  "evidence": [
+   {
+    "skill_id": "dsa",
+    "source": "self",
+    "score": 0.57,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2007",
+  "name": "Aarav T.",
+  "programme": "ME",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 7.76,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "F",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "A-",
+    "semester": 3
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software developer role",
+  "interests": [
+   "competitive programming",
+   "coding"
+  ],
+  "constraints": {
+   "hours_per_week": 10,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "max_credits": 18
+  },
+  "preferences": {
+   "formats": [
+    "video"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 2, goal software_engineer",
+  "evidence": [
+   {
+    "skill_id": "dsa",
+    "source": "assessment",
+    "score": 0.73,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 3,
+    "time_spent_min": 10
+   }
+  ]
+ },
+ {
+  "id": "S2008",
+  "name": "Faizan T.",
+  "programme": "ME",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 8.05,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "CS102",
+    "grade": "B",
+    "semester": 5
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software developer role",
+  "interests": [
+   "competitive programming",
+   "coding"
+  ],
+  "constraints": {
+   "hours_per_week": 6,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 3, goal software_engineer",
+  "evidence": [
+   {
+    "skill_id": "prog_fund",
+    "source": "assessment",
+    "score": 0.77,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 3,
+    "time_spent_min": 19
+   },
+   {
+    "skill_id": "databases",
+    "source": "self",
+    "score": 0.43,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2009",
+  "name": "Lakshmi D.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 8.12,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "DS201",
+    "grade": "B-",
+    "semester": 4
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data analyst / data scientist",
+  "interests": [
+   "ml",
+   "statistics"
+  ],
+  "constraints": {
+   "hours_per_week": 5,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "max_credits": 22
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "text"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 3, goal data_analyst",
+  "evidence": [
+   {
+    "skill_id": "prob_stats",
+    "source": "assessment",
+    "score": 0.26,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 3,
+    "time_spent_min": 13
+   },
+   {
+    "skill_id": "data_analysis",
+    "source": "self",
+    "score": 0.84,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "databases",
+    "source": "assessment",
+    "score": 0.24,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 2,
+    "time_spent_min": 23
+   }
+  ]
+ },
+ {
+  "id": "S2010",
+  "name": "Lakshmi A.",
+  "programme": "ME",
+  "year": 4,
+  "current_semester": 8,
+  "cgpa": 7.23,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "C",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "C",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "ME303",
+    "grade": "A-",
+    "semester": 6
+   },
+   {
+    "code": "ME304",
+    "grade": "B-",
+    "semester": 6
+   },
+   {
+    "code": "BT491",
+    "grade": "B",
+    "semester": 7
+   }
+  ],
+  "goal_id": "gate_core",
+  "goal_text": "Crack GATE",
+  "interests": [
+   "core subjects"
+  ],
+  "constraints": {
+   "hours_per_week": 5,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 3
+  },
+  "preferences": {
+   "formats": [
+    "text",
+    "practice"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 4, goal gate_core",
+  "evidence": [
+   {
+    "skill_id": "calculus",
+    "source": "self",
+    "score": 0.5,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "aptitude",
+    "source": "self",
+    "score": 0.78,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2011",
+  "name": "Lakshmi M.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.26,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "F",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "MS201",
+    "grade": "B-",
+    "semester": 4
+   }
+  ],
+  "goal_id": "startup_founder",
+  "goal_text": "Start my own company",
+  "interests": [
+   "product",
+   "startups"
+  ],
+  "constraints": {
+   "hours_per_week": 10,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 4
+  },
+  "preferences": {
+   "formats": [
+    "practice"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 3, goal startup_founder",
+  "evidence": [
+   {
+    "skill_id": "entrepreneurship",
+    "source": "self",
+    "score": 0.8,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2012",
+  "name": "Zoya G.",
+  "programme": "ME",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.34,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "C",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "A",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "DS201",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "CS102",
+    "grade": "B-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data analyst / data scientist",
+  "interests": [
+   "statistics",
+   "data"
+  ],
+  "constraints": {
+   "hours_per_week": 4,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 3, goal data_analyst",
+  "evidence": []
+ },
+ {
+  "id": "S2013",
+  "name": "Ananya B.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 8.76,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "A",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "CS102",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "CS202",
+    "grade": "A-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software developer role",
+  "interests": [
+   "web",
+   "competitive programming"
+  ],
+  "constraints": {
+   "hours_per_week": 4,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 6,
+   "max_credits": 18
+  },
+  "preferences": {
+   "formats": [
+    "practice"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 3, goal software_engineer",
+  "evidence": [
+   {
+    "skill_id": "dsa",
+    "source": "self",
+    "score": 0.83,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2014",
+  "name": "Isha R.",
+  "programme": "CHE",
+  "year": 4,
+  "current_semester": 8,
+  "cgpa": 8.26,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "CH303",
+    "grade": "A-",
+    "semester": 6
+   },
+   {
+    "code": "CH304",
+    "grade": "B-",
+    "semester": 6
+   },
+   {
+    "code": "BT491",
+    "grade": "B",
+    "semester": 7
+   },
+   {
+    "code": "MS201",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "HS201",
+    "grade": "A-",
+    "semester": 7
+   }
+  ],
+  "goal_id": "product_mba",
+  "goal_text": "MBA / product manager",
+  "interests": [
+   "business",
+   "product"
+  ],
+  "constraints": {
+   "hours_per_week": 15,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 4, goal product_mba",
+  "evidence": [
+   {
+    "skill_id": "product_mgmt",
+    "source": "assessment",
+    "score": 0.43,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 3,
+    "time_spent_min": 18
+   }
+  ]
+ },
+ {
+  "id": "S2015",
+  "name": "Priya E.",
+  "programme": "ME",
+  "year": 4,
+  "current_semester": 8,
+  "cgpa": 7.69,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "ME303",
+    "grade": "B-",
+    "semester": 6
+   },
+   {
+    "code": "ME304",
+    "grade": "B",
+    "semester": 6
+   },
+   {
+    "code": "BT491",
+    "grade": "A-",
+    "semester": 7
+   },
+   {
+    "code": "HS205",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "RM301",
+    "grade": "A-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "higher_studies",
+  "goal_text": "MS or PhD",
+  "interests": [
+   "research",
+   "simulation"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 6,
+   "max_credits": 20
+  },
+  "preferences": {
+   "formats": [
+    "video"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 4, goal higher_studies",
+  "evidence": [
+   {
+    "skill_id": "research_methods",
+    "source": "self",
+    "score": 0.56,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "linear_algebra",
+    "source": "assessment",
+    "score": 0.62,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 1,
+    "time_spent_min": 22
+   }
+  ]
+ },
+ {
+  "id": "S2016",
+  "name": "Saanvi K.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 8.19,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "DS201",
+    "grade": "A-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data analyst / data scientist",
+  "interests": [
+   "data",
+   "ml"
+  ],
+  "constraints": {
+   "hours_per_week": 12,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 3
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 3, goal data_analyst",
+  "evidence": [
+   {
+    "skill_id": "data_analysis",
+    "source": "assessment",
+    "score": 0.33,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 1,
+    "time_spent_min": 21
+   }
+  ]
+ },
+ {
+  "id": "S2017",
+  "name": "Rohan Y.",
+  "programme": "ME",
+  "year": 4,
+  "current_semester": 8,
+  "cgpa": 7.47,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "A",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "ME303",
+    "grade": "B",
+    "semester": 6
+   },
+   {
+    "code": "ME304",
+    "grade": "B-",
+    "semester": 6
+   },
+   {
+    "code": "BT491",
+    "grade": "B-",
+    "semester": 7
+   },
+   {
+    "code": "DS201",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "CS102",
+    "grade": "B-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data analyst / data scientist",
+  "interests": [
+   "data",
+   "ml"
+  ],
+  "constraints": {
+   "hours_per_week": 6,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 4, goal data_analyst",
+  "evidence": [
+   {
+    "skill_id": "prob_stats",
+    "source": "self",
+    "score": 0.45,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "databases",
+    "source": "assessment",
+    "score": 0.15,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 1,
+    "time_spent_min": 6
+   }
+  ]
+ },
+ {
+  "id": "S2018",
+  "name": "Aarav K.",
+  "programme": "CHE",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 8.11,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "A-",
+    "semester": 3
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data analyst / data scientist",
+  "interests": [
+   "ml",
+   "data"
+  ],
+  "constraints": {
+   "hours_per_week": 10,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "text"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 2, goal data_analyst",
+  "evidence": [
+   {
+    "skill_id": "data_analysis",
+    "source": "self",
+    "score": 0.82,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "databases",
+    "source": "self",
+    "score": 0.72,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2019",
+  "name": "Aisha C.",
+  "programme": "ME",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 9.2,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "C",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "A",
+    "semester": 5
+   },
+   {
+    "code": "DS201",
+    "grade": "A",
+    "semester": 4
+   },
+   {
+    "code": "CS102",
+    "grade": "A-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data analyst / data scientist",
+  "interests": [
+   "data",
+   "ml"
+  ],
+  "constraints": {
+   "hours_per_week": 12,
+   "not_together": [
+    [
+     "CS102",
+     "DS201"
+    ]
+   ],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 4,
+   "max_credits": 22
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "text"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 3, goal data_analyst",
+  "evidence": [
+   {
+    "skill_id": "databases",
+    "source": "assessment",
+    "score": 0.54,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 1,
+    "time_spent_min": 20
+   }
+  ]
+ },
+ {
+  "id": "S2020",
+  "name": "Arjun I.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.48,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "C",
+    "semester": 5
+   }
+  ],
+  "goal_id": "higher_studies",
+  "goal_text": "MS or PhD",
+  "interests": [
+   "simulation",
+   "research"
+  ],
+  "constraints": {
+   "hours_per_week": 4,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 3
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 3, goal higher_studies",
+  "evidence": [
+   {
+    "skill_id": "research_methods",
+    "source": "self",
+    "score": 0.83,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2021",
+  "name": "Karthik G.",
+  "programme": "ME",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 6.57,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "C-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "C",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "C",
+    "semester": 5
+   }
+  ],
+  "goal_id": "core_engineer",
+  "goal_text": "Core company job",
+  "interests": [
+   "plants",
+   "design"
+  ],
+  "constraints": {
+   "hours_per_week": 5,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "text"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 3, goal core_engineer",
+  "evidence": [
+   {
+    "skill_id": "numerical_methods",
+    "source": "self",
+    "score": 0.65,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "aptitude",
+    "source": "self",
+    "score": 0.85,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2022",
+  "name": "Neha E.",
+  "programme": "CHE",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 8.87,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "A-",
+    "semester": 3
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software developer role",
+  "interests": [
+   "coding",
+   "web"
+  ],
+  "constraints": {
+   "hours_per_week": 10,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 2, goal software_engineer",
+  "evidence": [
+   {
+    "skill_id": "prog_fund",
+    "source": "assessment",
+    "score": 0.43,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 2,
+    "time_spent_min": 6
+   }
+  ]
+ },
+ {
+  "id": "S2023",
+  "name": "Simran T.",
+  "programme": "CHE",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 8.53,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A-",
+    "semester": 1
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data analyst / data scientist",
+  "interests": [
+   "statistics",
+   "data"
+  ],
+  "constraints": {
+   "hours_per_week": 12,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 6
+  },
+  "preferences": {
+   "formats": [
+    "text"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 1, goal data_analyst",
+  "evidence": [
+   {
+    "skill_id": "data_analysis",
+    "source": "self",
+    "score": 0.63,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "databases",
+    "source": "assessment",
+    "score": 0.56,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 1,
+    "time_spent_min": 8
+   }
+  ]
+ },
+ {
+  "id": "S2024",
+  "name": "Rahul D.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.0,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "C-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "B-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "startup_founder",
+  "goal_text": "Start my own company",
+  "interests": [
+   "product",
+   "startups"
+  ],
+  "constraints": {
+   "hours_per_week": 5,
+   "not_together": [
+    [
+     "DS201",
+     "CS102"
+    ]
+   ],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 3
+  },
+  "preferences": {
+   "formats": [
+    "video"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 3, goal startup_founder",
+  "evidence": [
+   {
+    "skill_id": "entrepreneurship",
+    "source": "self",
+    "score": 0.76,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2025",
+  "name": "Dev R.",
+  "programme": "CHE",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 5.53,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "C-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "C-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "C",
+    "semester": 1
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software developer role",
+  "interests": [
+   "competitive programming",
+   "web"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "text"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 1, goal software_engineer",
+  "evidence": [
+   {
+    "skill_id": "databases",
+    "source": "assessment",
+    "score": 0.71,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 2,
+    "time_spent_min": 25
+   }
+  ]
+ },
+ {
+  "id": "S2026",
+  "name": "Yash R.",
+  "programme": "ME",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 8.52,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "B",
+    "semester": 5
+   }
+  ],
+  "goal_id": "higher_studies",
+  "goal_text": "MS or PhD",
+  "interests": [
+   "simulation",
+   "research"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 3, goal higher_studies",
+  "evidence": [
+   {
+    "skill_id": "research_methods",
+    "source": "self",
+    "score": 0.82,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2027",
+  "name": "Faizan P.",
+  "programme": "ME",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 6.89,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "C-",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "C",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "B-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data analyst / data scientist",
+  "interests": [
+   "ml",
+   "statistics"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [
+    [
+     "CS204",
+     "DS201"
+    ]
+   ],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "text"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 3, goal data_analyst",
+  "evidence": [
+   {
+    "skill_id": "data_analysis",
+    "source": "self",
+    "score": 0.59,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "databases",
+    "source": "self",
+    "score": 0.41,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2028",
+  "name": "Rohan D.",
+  "programme": "ME",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 8.42,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "B",
+    "semester": 3
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software developer role",
+  "interests": [
+   "web",
+   "competitive programming"
+  ],
+  "constraints": {
+   "hours_per_week": 10,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 6
+  },
+  "preferences": {
+   "formats": [
+    "text",
+    "practice"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 2, goal software_engineer",
+  "evidence": [
+   {
+    "skill_id": "dsa",
+    "source": "self",
+    "score": 0.67,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2029",
+  "name": "Saanvi A.",
+  "programme": "ME",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.88,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "C",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "HS205",
+    "grade": "B",
+    "semester": 4
+   }
+  ],
+  "goal_id": "higher_studies",
+  "goal_text": "MS or PhD",
+  "interests": [
+   "research",
+   "simulation"
+  ],
+  "constraints": {
+   "hours_per_week": 15,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 4,
+   "max_credits": 22
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 3, goal higher_studies",
+  "evidence": [
+   {
+    "skill_id": "linear_algebra",
+    "source": "assessment",
+    "score": 0.35,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 3,
+    "time_spent_min": 19
+   }
+  ]
+ },
+ {
+  "id": "S2030",
+  "name": "Krishna Y.",
+  "programme": "ME",
+  "year": 4,
+  "current_semester": 8,
+  "cgpa": 8.25,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "ME303",
+    "grade": "A-",
+    "semester": 6
+   },
+   {
+    "code": "ME304",
+    "grade": "B",
+    "semester": 6
+   },
+   {
+    "code": "BT491",
+    "grade": "B",
+    "semester": 7
+   },
+   {
+    "code": "MS201",
+    "grade": "A",
+    "semester": 4
+   },
+   {
+    "code": "HS201",
+    "grade": "B-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "product_mba",
+  "goal_text": "MBA / product manager",
+  "interests": [
+   "business",
+   "product"
+  ],
+  "constraints": {
+   "hours_per_week": 10,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "text"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 4, goal product_mba",
+  "evidence": [
+   {
+    "skill_id": "aptitude",
+    "source": "self",
+    "score": 0.69,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "product_mgmt",
+    "source": "assessment",
+    "score": 0.29,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 1,
+    "time_spent_min": 16
+   }
+  ]
+ },
+ {
+  "id": "S2031",
+  "name": "Krishna H.",
+  "programme": "CHE",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 7.0,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data analyst / data scientist",
+  "interests": [
+   "statistics",
+   "data"
+  ],
+  "constraints": {
+   "hours_per_week": 4,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 6
+  },
+  "preferences": {
+   "formats": [
+    "practice"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 1, goal data_analyst",
+  "evidence": [
+   {
+    "skill_id": "data_analysis",
+    "source": "self",
+    "score": 0.84,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "databases",
+    "source": "self",
+    "score": 0.68,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2032",
+  "name": "Lakshmi N.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 6.49,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "C-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "C-",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "C",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "C",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "MS201",
+    "grade": "C",
+    "semester": 4
+   }
+  ],
+  "goal_id": "startup_founder",
+  "goal_text": "Start my own company",
+  "interests": [
+   "startups",
+   "product"
+  ],
+  "constraints": {
+   "hours_per_week": 6,
+   "not_together": [
+    [
+     "DS201",
+     "CS102"
+    ]
+   ],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "text"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 3, goal startup_founder",
+  "evidence": [
+   {
+    "skill_id": "entrepreneurship",
+    "source": "assessment",
+    "score": 0.54,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 2,
+    "time_spent_min": 22
+   }
+  ]
+ },
+ {
+  "id": "S2033",
+  "name": "Sneha G.",
+  "programme": "CHE",
+  "year": 4,
+  "current_semester": 8,
+  "cgpa": 7.64,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "C",
+    "semester": 5
+   },
+   {
+    "code": "CH303",
+    "grade": "B-",
+    "semester": 6
+   },
+   {
+    "code": "CH304",
+    "grade": "C",
+    "semester": 6
+   },
+   {
+    "code": "BT491",
+    "grade": "B-",
+    "semester": 7
+   },
+   {
+    "code": "DS201",
+    "grade": "A",
+    "semester": 4
+   },
+   {
+    "code": "CS102",
+    "grade": "C",
+    "semester": 5
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data analyst / data scientist",
+  "interests": [
+   "statistics",
+   "data"
+  ],
+  "constraints": {
+   "hours_per_week": 10,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "text",
+    "practice"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 4, goal data_analyst",
+  "evidence": [
+   {
+    "skill_id": "prob_stats",
+    "source": "assessment",
+    "score": 0.48,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 2,
+    "time_spent_min": 11
+   },
+   {
+    "skill_id": "data_analysis",
+    "source": "self",
+    "score": 0.57,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "databases",
+    "source": "assessment",
+    "score": 0.31,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 3,
+    "time_spent_min": 24
+   }
+  ]
+ },
+ {
+  "id": "S2034",
+  "name": "Kavya V.",
+  "programme": "CHE",
+  "year": 4,
+  "current_semester": 8,
+  "cgpa": 8.07,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "C-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "CH303",
+    "grade": "A-",
+    "semester": 6
+   },
+   {
+    "code": "CH304",
+    "grade": "B",
+    "semester": 6
+   },
+   {
+    "code": "BT491",
+    "grade": "B",
+    "semester": 7
+   },
+   {
+    "code": "HS205",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "RM301",
+    "grade": "B",
+    "semester": 5
+   }
+  ],
+  "goal_id": "higher_studies",
+  "goal_text": "MS or PhD",
+  "interests": [
+   "research",
+   "simulation"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 4
+  },
+  "preferences": {
+   "formats": [
+    "video"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 4, goal higher_studies",
+  "evidence": [
+   {
+    "skill_id": "research_methods",
+    "source": "self",
+    "score": 0.71,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "linear_algebra",
+    "source": "self",
+    "score": 0.72,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2035",
+  "name": "Kabir M.",
+  "programme": "CHE",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 8.0,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   }
+  ],
+  "goal_id": "core_engineer",
+  "goal_text": "Core company job",
+  "interests": [
+   "design",
+   "plants"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "max_credits": 18
+  },
+  "preferences": {
+   "formats": [
+    "text"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 1, goal core_engineer",
+  "evidence": [
+   {
+    "skill_id": "aptitude",
+    "source": "self",
+    "score": 0.62,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2036",
+  "name": "Rahul P.",
+  "programme": "ME",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 6.31,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "D",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "C-",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "C",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "C-",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "B",
+    "semester": 5
+   }
+  ],
+  "goal_id": "core_engineer",
+  "goal_text": "Core company job",
+  "interests": [
+   "design",
+   "plants"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [
+    [
+     "HS201",
+     "CS201"
+    ]
+   ],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 3,
+   "max_credits": 18
+  },
+  "preferences": {
+   "formats": [
+    "video"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 3, goal core_engineer",
+  "evidence": []
+ },
+ {
+  "id": "S2037",
+  "name": "Kabir V.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 8.2,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "B-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "higher_studies",
+  "goal_text": "MS or PhD",
+  "interests": [
+   "research",
+   "simulation"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 4
+  },
+  "preferences": {
+   "formats": [
+    "text",
+    "practice"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 3, goal higher_studies",
+  "evidence": []
+ },
+ {
+  "id": "S2038",
+  "name": "Varun M.",
+  "programme": "CHE",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 8.55,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "A-",
+    "semester": 3
+   }
+  ],
+  "goal_id": "gate_core",
+  "goal_text": "Crack GATE",
+  "interests": [
+   "core subjects"
+  ],
+  "constraints": {
+   "hours_per_week": 10,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 4,
+   "max_credits": 20
+  },
+  "preferences": {
+   "formats": [
+    "text",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 2, goal gate_core",
+  "evidence": [
+   {
+    "skill_id": "calculus",
+    "source": "self",
+    "score": 0.65,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "aptitude",
+    "source": "self",
+    "score": 0.59,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2039",
+  "name": "Saanvi V.",
+  "programme": "ME",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 8.26,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "MS201",
+    "grade": "B-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "product_mba",
+  "goal_text": "MBA / product manager",
+  "interests": [
+   "product",
+   "business"
+  ],
+  "constraints": {
+   "hours_per_week": 6,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 6
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "text"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 3, goal product_mba",
+  "evidence": []
+ },
+ {
+  "id": "S2040",
+  "name": "Meera M.",
+  "programme": "ME",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 7.8,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data analyst / data scientist",
+  "interests": [
+   "statistics",
+   "data"
+  ],
+  "constraints": {
+   "hours_per_week": 15,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 6
+  },
+  "preferences": {
+   "formats": [
+    "text",
+    "practice"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 1, goal data_analyst",
+  "evidence": [
+   {
+    "skill_id": "prob_stats",
+    "source": "self",
+    "score": 0.81,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "data_analysis",
+    "source": "self",
+    "score": 0.45,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "databases",
+    "source": "self",
+    "score": 0.68,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2041",
+  "name": "Arjun H.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.4,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "C",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "HS201",
+    "grade": "C",
+    "semester": 4
+   },
+   {
+    "code": "HS203",
+    "grade": "A-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "upsc_cse",
+  "goal_text": "Civil services",
+  "interests": [
+   "economy",
+   "polity"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "text"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 3, goal upsc_cse",
+  "evidence": [
+   {
+    "skill_id": "polity_governance",
+    "source": "self",
+    "score": 0.42,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "economics",
+    "source": "self",
+    "score": 0.5,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2042",
+  "name": "Meera G.",
+  "programme": "ME",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 7.73,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   }
+  ],
+  "goal_id": "startup_founder",
+  "goal_text": "Start my own company",
+  "interests": [
+   "startups",
+   "product"
+  ],
+  "constraints": {
+   "hours_per_week": 4,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "max_credits": 20
+  },
+  "preferences": {
+   "formats": [
+    "video"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 1, goal startup_founder",
+  "evidence": []
+ },
+ {
+  "id": "S2043",
+  "name": "Faizan G.",
+  "programme": "CHE",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 7.29,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "C-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software developer role",
+  "interests": [
+   "web",
+   "coding"
+  ],
+  "constraints": {
+   "hours_per_week": 4,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 3
+  },
+  "preferences": {
+   "formats": [
+    "text",
+    "practice"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 2, goal software_engineer",
+  "evidence": [
+   {
+    "skill_id": "prog_fund",
+    "source": "self",
+    "score": 0.84,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "dsa",
+    "source": "self",
+    "score": 0.52,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2044",
+  "name": "Kavya P.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.04,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "C-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "MS201",
+    "grade": "B",
+    "semester": 4
+   }
+  ],
+  "goal_id": "product_mba",
+  "goal_text": "MBA / product manager",
+  "interests": [
+   "business",
+   "product"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "text"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 3, goal product_mba",
+  "evidence": [
+   {
+    "skill_id": "product_mgmt",
+    "source": "assessment",
+    "score": 0.51,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 1,
+    "time_spent_min": 14
+   }
+  ]
+ },
+ {
+  "id": "S2045",
+  "name": "Ishaan P.",
+  "programme": "ME",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 5.2,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "D",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "C-",
+    "semester": 1
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data analyst / data scientist",
+  "interests": [
+   "statistics",
+   "data"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [
+    [
+     "DS201",
+     "CS204"
+    ]
+   ],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "max_credits": 20
+  },
+  "preferences": {
+   "formats": [
+    "text"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 1, goal data_analyst",
+  "evidence": [
+   {
+    "skill_id": "databases",
+    "source": "self",
+    "score": 0.53,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2046",
+  "name": "Simran K.",
+  "programme": "ME",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 9.23,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "A",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "CS102",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "CS202",
+    "grade": "B",
+    "semester": 5
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software developer role",
+  "interests": [
+   "web",
+   "competitive programming"
+  ],
+  "constraints": {
+   "hours_per_week": 12,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "text",
+    "practice"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 3, goal software_engineer",
+  "evidence": [
+   {
+    "skill_id": "prog_fund",
+    "source": "assessment",
+    "score": 0.75,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 1,
+    "time_spent_min": 12
+   },
+   {
+    "skill_id": "dsa",
+    "source": "assessment",
+    "score": 0.17,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 2,
+    "time_spent_min": 22
+   },
+   {
+    "skill_id": "databases",
+    "source": "self",
+    "score": 0.78,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2047",
+  "name": "Priya C.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.91,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "B",
+    "semester": 5
+   }
+  ],
+  "goal_id": "core_engineer",
+  "goal_text": "Core company job",
+  "interests": [
+   "design",
+   "plants"
+  ],
+  "constraints": {
+   "hours_per_week": 4,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 6
+  },
+  "preferences": {
+   "formats": [
+    "video"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 3, goal core_engineer",
+  "evidence": [
+   {
+    "skill_id": "numerical_methods",
+    "source": "self",
+    "score": 0.41,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "aptitude",
+    "source": "assessment",
+    "score": 0.6,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 2,
+    "time_spent_min": 18
+   }
+  ]
+ },
+ {
+  "id": "S2048",
+  "name": "Harpreet J.",
+  "programme": "ME",
+  "year": 4,
+  "current_semester": 8,
+  "cgpa": 7.29,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "C-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "C",
+    "semester": 5
+   },
+   {
+    "code": "ME303",
+    "grade": "B",
+    "semester": 6
+   },
+   {
+    "code": "ME304",
+    "grade": "C",
+    "semester": 6
+   },
+   {
+    "code": "BT491",
+    "grade": "B",
+    "semester": 7
+   },
+   {
+    "code": "HS205",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "RM301",
+    "grade": "B-",
+    "semester": 6
+   }
+  ],
+  "goal_id": "higher_studies",
+  "goal_text": "MS or PhD",
+  "interests": [
+   "research",
+   "simulation"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 4,
+   "max_credits": 20
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 4, goal higher_studies",
+  "evidence": []
+ },
+ {
+  "id": "S2049",
+  "name": "Riya J.",
+  "programme": "CHE",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 8.34,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "A-",
+    "semester": 3
+   }
+  ],
+  "goal_id": "gate_core",
+  "goal_text": "Crack GATE",
+  "interests": [
+   "core subjects"
+  ],
+  "constraints": {
+   "hours_per_week": 15,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "practice"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 2, goal gate_core",
+  "evidence": [
+   {
+    "skill_id": "aptitude",
+    "source": "assessment",
+    "score": 0.43,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 1,
+    "time_spent_min": 9
+   }
+  ]
+ },
+ {
+  "id": "S2050",
+  "name": "Dev M.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 8.84,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "HS205",
+    "grade": "A",
+    "semester": 4
+   }
+  ],
+  "goal_id": "higher_studies",
+  "goal_text": "MS or PhD",
+  "interests": [
+   "simulation",
+   "research"
+  ],
+  "constraints": {
+   "hours_per_week": 4,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 6
+  },
+  "preferences": {
+   "formats": [
+    "video"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 3, goal higher_studies",
+  "evidence": [
+   {
+    "skill_id": "research_methods",
+    "source": "self",
+    "score": 0.57,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2051",
+  "name": "Rahul C.",
+  "programme": "CHE",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 5.96,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "C-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "C-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "C-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "C-",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "C-",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "DS201",
+    "grade": "B-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data analyst / data scientist",
+  "interests": [
+   "data",
+   "ml"
+  ],
+  "constraints": {
+   "hours_per_week": 5,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 3, goal data_analyst",
+  "evidence": [
+   {
+    "skill_id": "prob_stats",
+    "source": "self",
+    "score": 0.66,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2052",
+  "name": "Lakshmi I.",
+  "programme": "CHE",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 8.66,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B",
+    "semester": 3
+   }
+  ],
+  "goal_id": "upsc_cse",
+  "goal_text": "Civil services",
+  "interests": [
+   "economy",
+   "polity"
+  ],
+  "constraints": {
+   "hours_per_week": 5,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 2, goal upsc_cse",
+  "evidence": []
+ },
+ {
+  "id": "S2053",
+  "name": "Omkar J.",
+  "programme": "ME",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 6.37,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "C",
+    "semester": 3
+   }
+  ],
+  "goal_id": "higher_studies",
+  "goal_text": "MS or PhD",
+  "interests": [
+   "simulation",
+   "research"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 2, goal higher_studies",
+  "evidence": [
+   {
+    "skill_id": "research_methods",
+    "source": "self",
+    "score": 0.75,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "linear_algebra",
+    "source": "self",
+    "score": 0.63,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2054",
+  "name": "Isha J.",
+  "programme": "CHE",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 6.6,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "C-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   }
+  ],
+  "goal_id": "higher_studies",
+  "goal_text": "MS or PhD",
+  "interests": [
+   "simulation",
+   "research"
+  ],
+  "constraints": {
+   "hours_per_week": 4,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "practice"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 1, goal higher_studies",
+  "evidence": [
+   {
+    "skill_id": "research_methods",
+    "source": "self",
+    "score": 0.41,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "linear_algebra",
+    "source": "self",
+    "score": 0.6,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2055",
+  "name": "Kabir R.",
+  "programme": "CHE",
+  "year": 4,
+  "current_semester": 8,
+  "cgpa": 6.73,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "C-",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "C",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "C",
+    "semester": 5
+   },
+   {
+    "code": "CH303",
+    "grade": "B",
+    "semester": 6
+   },
+   {
+    "code": "CH304",
+    "grade": "C",
+    "semester": 6
+   },
+   {
+    "code": "BT491",
+    "grade": "B",
+    "semester": 7
+   },
+   {
+    "code": "DS201",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "CS102",
+    "grade": "C",
+    "semester": 7
+   }
+  ],
+  "goal_id": "data_analyst",
+  "goal_text": "Data analyst / data scientist",
+  "interests": [
+   "ml",
+   "statistics"
+  ],
+  "constraints": {
+   "hours_per_week": 15,
+   "not_together": [
+    [
+     "CS102",
+     "DS201"
+    ]
+   ],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "text",
+    "practice"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 4, goal data_analyst",
+  "evidence": [
+   {
+    "skill_id": "prob_stats",
+    "source": "self",
+    "score": 0.77,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2056",
+  "name": "Rohan T.",
+  "programme": "ME",
+  "year": 4,
+  "current_semester": 8,
+  "cgpa": 7.57,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "C",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "ME303",
+    "grade": "B",
+    "semester": 6
+   },
+   {
+    "code": "ME304",
+    "grade": "B",
+    "semester": 6
+   },
+   {
+    "code": "BT491",
+    "grade": "B-",
+    "semester": 7
+   },
+   {
+    "code": "HS201",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "HS203",
+    "grade": "A-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "upsc_cse",
+  "goal_text": "Civil services",
+  "interests": [
+   "economy",
+   "polity"
+  ],
+  "constraints": {
+   "hours_per_week": 15,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 4, goal upsc_cse",
+  "evidence": [
+   {
+    "skill_id": "polity_governance",
+    "source": "assessment",
+    "score": 0.58,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 3,
+    "time_spent_min": 17
+   }
+  ]
+ },
+ {
+  "id": "S2057",
+  "name": "Siddharth J.",
+  "programme": "CHE",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 6.87,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "D",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B-",
+    "semester": 3
+   }
+  ],
+  "goal_id": "core_engineer",
+  "goal_text": "Core company job",
+  "interests": [
+   "design",
+   "plants"
+  ],
+  "constraints": {
+   "hours_per_week": 10,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 3
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "steady"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 2, goal core_engineer",
+  "evidence": [
+   {
+    "skill_id": "numerical_methods",
+    "source": "assessment",
+    "score": 0.85,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 2,
+    "time_spent_min": 25
+   },
+   {
+    "skill_id": "aptitude",
+    "source": "self",
+    "score": 0.77,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2058",
+  "name": "Riya H.",
+  "programme": "CHE",
+  "year": 4,
+  "current_semester": 8,
+  "cgpa": 8.01,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "B-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "CH203",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH204",
+    "grade": "B",
+    "semester": 4
+   },
+   {
+    "code": "CH301",
+    "grade": "B",
+    "semester": 5
+   },
+   {
+    "code": "CH302",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "CH303",
+    "grade": "C",
+    "semester": 6
+   },
+   {
+    "code": "CH304",
+    "grade": "A",
+    "semester": 6
+   },
+   {
+    "code": "BT491",
+    "grade": "A-",
+    "semester": 7
+   },
+   {
+    "code": "HS205",
+    "grade": "B-",
+    "semester": 6
+   },
+   {
+    "code": "RM301",
+    "grade": "B",
+    "semester": 7
+   }
+  ],
+  "goal_id": "higher_studies",
+  "goal_text": "MS or PhD",
+  "interests": [
+   "simulation",
+   "research"
+  ],
+  "constraints": {
+   "hours_per_week": 5,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "practice"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 4, goal higher_studies",
+  "evidence": []
+ },
+ {
+  "id": "S2059",
+  "name": "Dev A.",
+  "programme": "CHE",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 7.29,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "C",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "B",
+    "semester": 3
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software developer role",
+  "interests": [
+   "coding",
+   "web"
+  ],
+  "constraints": {
+   "hours_per_week": 5,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 3
+  },
+  "preferences": {
+   "formats": [
+    "text",
+    "practice"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 2, goal software_engineer",
+  "evidence": [
+   {
+    "skill_id": "prog_fund",
+    "source": "self",
+    "score": 0.77,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "dsa",
+    "source": "assessment",
+    "score": 0.46,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 1,
+    "time_spent_min": 21
+   },
+   {
+    "skill_id": "databases",
+    "source": "self",
+    "score": 0.84,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2060",
+  "name": "Vihaan N.",
+  "programme": "ME",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 8.64,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "A",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "C",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "A",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "A",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "CS102",
+    "grade": "A-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software developer role",
+  "interests": [
+   "competitive programming",
+   "web"
+  ],
+  "constraints": {
+   "hours_per_week": 6,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "max_credits": 22
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "practice"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 3, goal software_engineer",
+  "evidence": []
+ },
+ {
+  "id": "S2061",
+  "name": "Manav I.",
+  "programme": "ME",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.69,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B-",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "B-",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "B-",
+    "semester": 5
+   },
+   {
+    "code": "CS102",
+    "grade": "B-",
+    "semester": 4
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software developer role",
+  "interests": [
+   "web",
+   "coding"
+  ],
+  "constraints": {
+   "hours_per_week": 4,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "max_credits": 18
+  },
+  "preferences": {
+   "formats": [
+    "text"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 3, goal software_engineer",
+  "evidence": [
+   {
+    "skill_id": "dsa",
+    "source": "assessment",
+    "score": 0.38,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 2,
+    "time_spent_min": 15
+   }
+  ]
+ },
+ {
+  "id": "S2062",
+  "name": "Zoya M.",
+  "programme": "ME",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 9.27,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A",
+    "semester": 1
+   }
+  ],
+  "goal_id": "upsc_cse",
+  "goal_text": "Civil services",
+  "interests": [
+   "economy",
+   "polity"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "text"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 1, goal upsc_cse",
+  "evidence": [
+   {
+    "skill_id": "polity_governance",
+    "source": "self",
+    "score": 0.55,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "economics",
+    "source": "assessment",
+    "score": 0.33,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 2,
+    "time_spent_min": 14
+   }
+  ]
+ },
+ {
+  "id": "S2063",
+  "name": "Krishna R.",
+  "programme": "ME",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 7.27,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   }
+  ],
+  "goal_id": "core_engineer",
+  "goal_text": "Core company job",
+  "interests": [
+   "plants",
+   "design"
+  ],
+  "constraints": {
+   "hours_per_week": 10,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 4
+  },
+  "preferences": {
+   "formats": [
+    "video",
+    "text"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 1, goal core_engineer",
+  "evidence": [
+   {
+    "skill_id": "numerical_methods",
+    "source": "self",
+    "score": 0.49,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   },
+   {
+    "skill_id": "aptitude",
+    "source": "assessment",
+    "score": 0.31,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 3,
+    "time_spent_min": 12
+   }
+  ]
+ },
+ {
+  "id": "S2064",
+  "name": "Bhavna G.",
+  "programme": "ME",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.83,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "C",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "B-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "A-",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "ME201",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME202",
+    "grade": "B",
+    "semester": 3
+   },
+   {
+    "code": "ME203",
+    "grade": "F",
+    "semester": 4
+   },
+   {
+    "code": "ME204",
+    "grade": "A-",
+    "semester": 4
+   },
+   {
+    "code": "ME301",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "ME302",
+    "grade": "A-",
+    "semester": 5
+   },
+   {
+    "code": "CS102",
+    "grade": "A-",
+    "semester": 5
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software developer role",
+  "interests": [
+   "web",
+   "competitive programming"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": []
+  },
+  "preferences": {
+   "formats": [
+    "practice"
+   ],
+   "pace": "slow"
+  },
+  "persona": "Sampled: B.Tech Mechanical Engineering year 3, goal software_engineer",
+  "evidence": [
+   {
+    "skill_id": "dsa",
+    "source": "assessment",
+    "score": 0.7,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 2,
+    "time_spent_min": 11
+   },
+   {
+    "skill_id": "databases",
+    "source": "self",
+    "score": 0.4,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ },
+ {
+  "id": "S2065",
+  "name": "Lakshmi T.",
+  "programme": "CHE",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 8.53,
+  "completed_courses": [
+   {
+    "code": "CS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "HS101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "MA101",
+    "grade": "B",
+    "semester": 1
+   },
+   {
+    "code": "PH101",
+    "grade": "A-",
+    "semester": 1
+   },
+   {
+    "code": "CY101",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "MA102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "ME102",
+    "grade": "B",
+    "semester": 2
+   },
+   {
+    "code": "CH201",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "CH202",
+    "grade": "A-",
+    "semester": 3
+   },
+   {
+    "code": "MA201",
+    "grade": "A",
+    "semester": 3
+   }
+  ],
+  "goal_id": "software_engineer",
+  "goal_text": "Software developer role",
+  "interests": [
+   "competitive programming",
+   "coding"
+  ],
+  "constraints": {
+   "hours_per_week": 8,
+   "not_together": [],
+   "excluded_courses": [],
+   "pinned_courses": [],
+   "extra_credit_headroom": 6
+  },
+  "preferences": {
+   "formats": [
+    "text"
+   ],
+   "pace": "fast"
+  },
+  "persona": "Sampled: B.Tech Chemical Engineering year 2, goal software_engineer",
+  "evidence": [
+   {
+    "skill_id": "prog_fund",
+    "source": "assessment",
+    "score": 0.71,
+    "detail": "Earlier diagnostic quiz",
+    "attempts": 2,
+    "time_spent_min": 9
+   },
+   {
+    "skill_id": "databases",
+    "source": "self",
+    "score": 0.65,
+    "detail": "Self-declared at onboarding",
+    "attempts": 1,
+    "time_spent_min": 0
+   }
+  ]
+ }
+]

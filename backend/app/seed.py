@@ -14,7 +14,7 @@ from sqlalchemy import func, select
 
 from . import config
 from .db import engine, session_scope
-from .models import (Base, Course, CourseSkill, Evidence, Goal, Minor, Module,
+from .models import (Base, Course, CourseSkill, Evidence, Goal, Memory, Minor, Module,
                      Prerequisite, Programme, Question, Resource, Rule, Skill,
                      Student)
 
@@ -76,10 +76,13 @@ def load_students(db):
         return
     for s in _json("students.json"):
         evidence = s.pop("evidence", [])
+        memories = s.pop("memories", [])
         db.add(Student(**s))
         db.flush()
         for e in evidence:
             db.add(Evidence(student_id=s["id"], **e))
+        for m in memories:
+            db.add(Memory(student_id=s["id"], **m))
 
 
 def is_empty() -> bool:
