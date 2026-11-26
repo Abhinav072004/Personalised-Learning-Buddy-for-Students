@@ -136,6 +136,12 @@ def current_plan(db: Session, student: Student, reason: str = "") -> dict:
         res["plan_record"] = last
         return res
     diff = diff_plans(last.content if last else None, res["plan"])
+    if last and diff.get("changes") == ["No material change."]:
+        # inputs changed but the plan did not: refresh silently instead of creating a new version
+        last.fingerprint, last.content, last.validation = res["fingerprint"], res["plan"], res["validation"]
+        db.commit()
+        res["plan_record"] = last
+        return res
     if not reason:
         reason = "Initial plan" if not last else infer_reason(db, student.id, last)
     rec = Plan(student_id=student.id, version=(last.version + 1) if last else 1, fingerprint=res["fingerprint"],

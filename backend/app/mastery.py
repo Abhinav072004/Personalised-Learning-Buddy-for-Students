@@ -22,6 +22,7 @@ This is what separates "the student completed the course" from "the student
 demonstrated the required level of proficiency".
 """
 import math
+import re
 from collections import defaultdict
 
 from .kb import KB
@@ -39,7 +40,7 @@ def grade_evidence(kb: KB, student: dict) -> list[dict]:
     for cc in student["completed_courses"]:
         gp = kb.grade_points(cc["grade"])
         for skill, level in kb.course_skills.get(cc["code"], {}).items():
-            out.append({"skill_id": skill, "source": "grade", "score": round(level * gp / 10, 3),
+            out.append({"skill_id": skill, "source": "grade", "score": round(level * gp / 10, 3), "grade_points": gp,
                         "detail": f"{cc['code']} grade {cc['grade']}", "attempts": 1, "time_spent_min": 0,
                         "order": cc.get("semester", 0) * 1e-6})
     return out
@@ -92,11 +93,16 @@ def status_for(kb: KB, est: dict, target: float) -> str:
     return "gap"
 
 
+def clean_detail(d: str) -> str:
+    return re.sub(r"\s*q=\S*", "", d or "").strip()
+
+
 def skill_states(kb: KB, student: dict, evidence_rows: list[dict]) -> dict[str, dict]:
     by = all_evidence(kb, student, evidence_rows)
     states = {}
     for s in kb.skills:
         est = estimate(kb, by.get(s, []))
-        est["evidence"] = [{k: e[k] for k in ("source", "score", "detail")} for e in by.get(s, [])][-6:]
+        est["evidence"] = [{"source": e["source"], "score": e["score"], "detail": clean_detail(e.get("detail", "")),
+                            **({"grade_points": e["grade_points"]} if "grade_points" in e else {})} for e in by.get(s, [])][-6:]
         states[s] = est
     return states

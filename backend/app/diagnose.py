@@ -93,11 +93,14 @@ def diagnose(kb: KB, student: dict, states: dict) -> dict:
     # interest/goal vs evidence mismatches
     mismatches = []
     for g in gaps:
-        strong_low = [e for e in g["evidence"] if e["source"] in TESTED | {"grade"} and e["score"] < 0.45]
+        strong_low = [e for e in g["evidence"] if (e["source"] in TESTED and e["score"] < 0.45)
+                      or (e["source"] == "grade" and e.get("grade_points", 10) <= 5)]
         if g["importance"] >= 2 and strong_low and g["status"] in ("gap", "in_progress"):
+            e = strong_low[-1]
+            what = (f"your {e['detail']}" if e["source"] == "grade"
+                    else f"{e['detail'] or e['source']} was {int(e['score']*100)}%")
             mismatches.append({"skill": g["skill"], "kind": "goal_vs_evidence",
-                               "message": f"Your goal needs {g['name']} (target {int(g['target']*100)}%), but "
-                                          f"{strong_low[-1]['detail'] or strong_low[-1]['source']} shows {int(strong_low[-1]['score']*100)}%. "
+                               "message": f"Your goal needs {g['name']} (target {int(g['target']*100)}%), but {what}. "
                                           "The plan adds work to close this gap; check whether the goal still fits after the next checkpoint."})
     interest_text = " ".join(student.get("interests", [])).lower()
     for skill, aliases in SKILL_ALIASES.items():

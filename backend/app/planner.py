@@ -301,11 +301,19 @@ def build_plan(kb: KB, student: dict, states: dict, diag: dict, done_modules: se
             skills = set(kb.course_skills.get(code, {}))
             alts = [c for c in kb.courses if c != code and skills & set(kb.course_skills.get(c, {}))
                     and not course_blockers(kb, student, c, sem0, completed_codes(kb, student), [], credit_limit, tuple(online_used))]
+            alts.sort(key=lambda c: -sum(kb.course_skills[c].get(k, 0) for k in skills))
             alt = alts[0] if alts else None
+            covered = [(x["code"], sem_["semester"]) for sem_ in semesters for x in sem_["courses"]
+                       if x["code"] and skills & set(kb.course_skills.get(x["code"], {}))]
+        else:
+            covered = []
+        msg = f"{code} cannot be scheduled: {'; '.join(why) or 'no free slot or credits remain'}."
+        if alt:
+            msg += f" Best valid option: {alt} ({kb.courses[alt]['title']})."
+        elif covered:
+            msg += " Your plan already builds the same skills through " + ", ".join(f"{c} (semester {s_})" for c, s_ in covered[:3]) + "."
         infeasible.append({"course": code, "reasons": why or ["no free slot or credits remain in any semester"],
-                           "alternative": alt,
-                           "message": f"{code} cannot be scheduled: {'; '.join(why) or 'no free slot or credits remain'}."
-                                      + (f" Best valid option: {alt} ({kb.courses[alt]['title']})." if alt else "")})
+                           "alternative": alt, "covered_by": covered[:3], "message": msg})
 
     if minor:
         if minor.get("eligible"):
