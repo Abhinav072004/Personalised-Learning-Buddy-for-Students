@@ -98,7 +98,7 @@ def diagnose(kb: KB, student: dict, states: dict) -> dict:
         if g["importance"] >= 2 and strong_low and g["status"] in ("gap", "in_progress"):
             e = strong_low[-1]
             what = (f"your {e['detail']}" if e["source"] == "grade"
-                    else f"{e['detail'] or e['source']} was {int(e['score']*100)}%")
+                    else e["detail"] if "%" in (e["detail"] or "") else f"{e['detail'] or e['source']} scored {int(e['score']*100)}%")
             mismatches.append({"skill": g["skill"], "kind": "goal_vs_evidence",
                                "message": f"Your goal needs {g['name']} (target {int(g['target']*100)}%), but {what}. "
                                           "The plan adds work to close this gap; check whether the goal still fits after the next checkpoint."})

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buddy Admin</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="logo">LB</span> Admin - data control</div>
+  <div class="who"><a class="btn ghost" href="/">Student app</a><a class="btn ghost" id="adminerLink" target="_blank" rel="noopener">Open Adminer</a>
+    <button class="btn danger" id="resetBtn">Reset to seed</button></div>
+</header>
+<div style="max-width:1400px;margin:0 auto;padding:16px">
+  <div class="card">
+    <p>View and edit student profiles, scores (evidence) and course data. Every save re-processes immediately: a student edit re-plans that student; a knowledge-base edit re-plans everyone.
+      Edits made directly in Adminer are picked up automatically the next time a plan is read (plans are fingerprinted against all their inputs).</p>
+    <div class="row" style="align-items:center">
+      <label class="inline">Table <select id="table"></select></label>
+      <input id="filter" placeholder="Filter rows (text match)">
+      <button class="btn small ghost" id="newRow">+ New row</button>
+      <span id="status" class="small muted"></span>
+    </div>
+  </div>
+  <div class="card" style="overflow-x:auto"><table class="data" id="grid"></table></div>
+</div>
+<dialog id="editDlg"><form method="dialog" class="onboard" id="editForm">
+  <h2 id="editTitle">Edit row</h2>
+  <p class="small muted">JSON object of column values. Lists/objects (e.g. constraints, completed_courses) are edited as JSON.</p>
+  <textarea id="editJson" rows="18" style="width:100%;font-family:ui-monospace,Consolas,monospace;font-size:.82rem"></textarea>
+  <menu><button value="cancel" class="btn ghost" formnovalidate>Cancel</button><button value="del" class="btn danger" id="delBtn">Delete</button><button value="ok" class="btn">Save</button></menu>
+</form></dialog>
+<div id="toast" class="toast" role="status"></div>
+<script src="/static/admin.js"></script>
+</body>
+</html>
